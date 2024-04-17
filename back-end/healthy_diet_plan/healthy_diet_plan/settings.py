@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-(l_zripfnnblr_^y-!y0kmr8#--&-_ly9f$tms!pwr_&tynnxd'
+SECRET_KEY = 'django-insecure-=c41y-j!o-72g!@@qb)10x2j$7%t^*2!pq12w&=)0s1fizkyr8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-
+    'healthy_diet_planner_app',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
