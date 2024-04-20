@@ -34,6 +34,6 @@ def calculate_nutritional_needs(user_data):
             'fats': round((calories * 0.25) / 9)   # Fats as 25% of total calories
         }
     except KeyError as e:
-        raise ValueError(f"Missing key information: {str(e)}")
+        raise ValueError(f"Missing info: {str(e)}")
     except ValueError as e:
         raise ValueError(f"Data validation error: {str(e)}")

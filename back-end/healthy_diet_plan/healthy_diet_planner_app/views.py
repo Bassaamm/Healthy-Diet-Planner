@@ -16,7 +16,10 @@ def diet_plan(request):
     if request.method == "POST":
         try:
             user_data = json.loads(request.body.decode('utf-8'))
+            # Get user nutritional requirements
             requirements = calculate_nutritional_needs(user_data)
+
+            # Getting the food data from database
             allowed_foods = list(FoodItem.objects.all().values('name', 'cost', 'calories', 'protein', 'carbs', 'fats'))
 
             # Get optimized food quantities
@@ -25,9 +28,9 @@ def diet_plan(request):
             # Convert to structured meal plan
             meal_plan = convert_to_meal_plan(food_quantities, allowed_foods)
             
-            return JsonResponse(meal_plan)
+            return JsonResponse({'status': 'success', 'meal_plan': meal_plan})
         except Exception as e:
-            return JsonResponse({'error': 'Unexpected error occurred', 'details': str(e)}, status=500)
+            return JsonResponse({'status': 'error', 'details': str(e)}, status=500)
 
 def convert_to_meal_plan(food_quantities, allowed_foods):
     # Initial empty meal plan structure
@@ -41,7 +44,7 @@ def convert_to_meal_plan(food_quantities, allowed_foods):
         }
     }
 
-    # Distribute meals (example distribution, adjust as needed)
+    # Distribute meals - not accurate yet
     meals = ["breakfast", "lunch", "dinner"]
     meal_index = 0
 
