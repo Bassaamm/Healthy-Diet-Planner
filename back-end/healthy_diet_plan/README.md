@@ -10,14 +10,16 @@ Before you can use the backend, you need to install the necessary dependencies. 
 pip install -r requirements.txt
 ```
 
-Running the Server
+## Running the Server
+
 After installing the dependencies, you can start the server by running the following command:
 
 ```bash
 py manage.py runserver
 ```
 
-API Usage
+## API Usage
+
 To test the API endpoint, you can use a tool like Postman. The endpoint is:
 
 ```bash
