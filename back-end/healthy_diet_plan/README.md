@@ -48,38 +48,41 @@ Here's an example of the data returned by the API:
 
 ```bash
 {
-    "calories": 3254,
-    "cost": 11.44,
-    "meals": {
-        "breakfast": {
-            "items": {
-                "Oil, soybean lecithin": {
-                    "carbs": 0,
-                    "protein": 0,
-                    "fat": 103
-                }
+    "status": "success",
+    "meal_plan": {
+        "calories": 3254,
+        "cost": 11.44,
+        "meals": {
+            "breakfast": {
+                "items": {
+                    "Oil, soybean lecithin": {
+                        "carbs": 0,
+                        "protein": 0,
+                        "fat": 103
+                    }
+                },
+                "calories": 788
             },
-            "calories": 788
-        },
-        "lunch": {
-            "items": {
-                "Cheese, muenster": {
-                    "carbs": 1,
-                    "protein": 29,
-                    "fat": 37
-                }
+            "lunch": {
+                "items": {
+                    "Cheese, muenster": {
+                        "carbs": 1,
+                        "protein": 29,
+                        "fat": 37
+                    }
+                },
+                "calories": 448
             },
-            "calories": 448
-        },
-        "dinner": {
-            "items": {
-                "Snacks, air-popped, popcorn": {
-                    "carbs": 406,
-                    "protein": 67,
-                    "fat": 24
-                }
-            },
-            "calories": 2018
+            "dinner": {
+                "items": {
+                    "Snacks, air-popped, popcorn": {
+                        "carbs": 406,
+                        "protein": 67,
+                        "fat": 24
+                    }
+                },
+                "calories": 2018
+            }
         }
     }
 }
