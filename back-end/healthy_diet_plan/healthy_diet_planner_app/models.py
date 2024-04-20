@@ -1,4 +1,3 @@
-
 from django.db import models
 
 class FoodItem(models.Model):
@@ -12,6 +11,3 @@ class FoodItem(models.Model):
     is_vegetarian = models.BooleanField(default=False)
     is_gluten_free = models.BooleanField(default=False)
     is_lactose_free = models.BooleanField(default=False)
-
-    def _str_(self):
-        return self.name

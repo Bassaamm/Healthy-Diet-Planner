@@ -1,0 +1,674 @@
+name,cost,calories,protein,carbs,fats,is_vegan,is_vegetarian,is_gluten_free,is_lactose_free,price_category
+"Nuts, pecans",8.48,691,9.17,13.86,71.97,True,True,True,True,medium
+"Sherbet, orange",6.12,144,1.1,30.4,2.0,True,True,True,True,low
+"Cheese, camembert",2.97,300,19.8,0.46,24.26,False,True,True,False,low
+Vegetarian fillets,31.76,290,23.0,9.0,18.0,True,True,True,True,high
+"PACE, Picante Sauce",5.77,25,0.0,6.25,0.0,True,True,True,True,low
+"Goji berries, dried",5.71,349,14.26,77.06,0.39,True,True,True,True,low
+"Mango nectar, canned",7.32,51,0.11,13.12,0.06,True,True,True,True,low
+"Crackers, rusk toast",18.13,407,13.5,72.3,7.2,True,True,True,True,medium
+"Chicken, boiled, feet",61.35,215,19.4,0.2,14.6,False,False,True,True,high
+"Pie, lemon, fried pies",8.34,316,3.0,42.6,16.1,True,True,True,True,low
+"Salami, turkey, cooked",42.45,172,19.2,1.55,9.21,True,True,True,True,high
+"Spices, ground, savory",13.47,272,6.73,68.73,5.91,True,True,True,True,medium
+"Candies, sesame crunch",21.37,516,11.6,50.3,33.3,True,True,True,True,medium
+"Cheese, low fat, cream",13.10,201,7.85,8.13,15.28,False,True,True,False,medium
+"PACE, Green Taco Sauce",10.73,25,0.0,6.25,0.0,True,True,True,True,low
+"Syrup, Canadian, maple",8.54,270,0.0,67.38,0.0,True,True,True,True,low
+"Chewing gum, sugarless",2.91,268,0.0,94.8,0.4,True,True,True,True,low
+"Nuts, dried, pine nuts",24.37,673,13.69,13.08,68.37,True,True,True,True,medium
+"Pasta, unenriched, dry",2.10,371,13.04,74.67,1.51,True,True,False,True,low
+"McDONALD'S, Side Salad",8.74,20,1.03,4.3,0.19,True,True,True,True,low
+"Cookies, Marie biscuit",17.96,406,7.05,70.54,10.58,True,True,True,True,medium
+"McDONALD'S, Hash Brown",7.09,271,2.48,28.56,16.3,True,True,True,True,low
+"Nuts, dried, beechnuts",28.05,576,6.2,33.5,50.0,True,True,True,True,medium
+"Currants, dried, zante",7.97,283,4.08,74.08,0.27,True,True,True,True,low
+"Gravy, mix, dry, onion",7.81,322,9.0,67.64,3.0,True,True,True,True,low
+"Pie, fruit, fried pies",5.95,316,3.0,42.6,16.1,True,True,True,True,low
+"Snacks, cakes, popcorn",7.44,384,9.7,80.1,3.1,True,True,True,True,low
+"Snack, Mixed Berry Bar",11.74,383,13.16,58.84,10.53,True,True,True,True,medium
+"Babyfood, pear, juice",10.93,47,0.0,11.86,0.0,True,True,True,True,low
+"Broccoli raab, cooked",54.64,33,3.83,3.12,0.52,True,True,True,True,high
+"Butter oil, anhydrous",12.40,876,0.28,0.0,99.48,True,True,True,True,low
+"KEEBLER, Waffle Cones",17.05,424,6.5,87.7,5.3,True,True,True,True,medium
+"KEEBLER, Waffle Bowls",11.35,424,6.5,87.7,5.3,True,True,True,True,medium
+"Egg custards, dry mix",28.38,410,6.9,82.8,6.4,False,True,True,True,medium
+"Fish, smoked, haddock",48.04,116,25.23,0.0,0.96,False,False,True,True,high
+"DENNY'S, french fries",2.30,282,3.41,35.2,14.13,True,True,True,True,low
+"Ground turkey, cooked",18.61,203,27.37,0.0,10.4,True,True,True,True,high
+"MURRAY, Vanilla Wafer",8.30,461,4.0,72.9,17.4,True,True,True,True,low
+"WENDY'S, french fries",1.95,301,3.73,39.73,14.1,True,True,True,True,low
+"Bread, toasted, wheat",4.29,313,12.96,55.77,4.27,True,True,False,True,low
+"Danish pastry, cheese",26.38,374,8.0,37.2,21.9,False,True,True,False,medium
+"Nuts, glazed, walnuts",14.40,500,8.28,47.59,35.71,True,True,True,True,medium
+"Spices, garlic powder",11.17,331,16.55,72.73,0.73,True,True,True,True,low
+"Oil, soybean lecithin",1.38,763,0.0,0.0,100.0,True,True,True,True,low
+"Beef, pastrami, cured",61.82,147,21.8,0.36,5.82,True,True,True,True,high
+"Frankfurter, meatless",49.32,233,19.61,7.7,13.73,False,False,True,True,high
+"Ice creams, chocolate",2.45,216,3.8,28.2,11.0,True,True,True,False,low
+"Snacks, potato sticks",21.37,522,6.7,53.3,34.4,True,True,True,True,medium
+"USDA Commodity, salsa",9.21,36,1.5,7.0,0.2,True,True,True,True,low
+"Syrup, fruit flavored",11.13,261,0.0,65.1,0.02,True,True,True,True,low
+"Cream, cultured, sour",9.57,198,2.44,4.63,19.35,True,True,True,False,low
+"Gravy, canned, au jus",4.24,16,1.2,2.5,0.2,True,True,True,True,low
+"McDONALD'S, Hamburger",28.17,264,12.92,30.28,10.09,True,True,True,True,medium
+"Cheese, port de salut",3.32,352,23.78,0.57,28.2,False,True,True,False,low
+SILK Original Creamer,8.88,100,0.0,6.67,6.67,True,True,True,False,low
+SILK Hazelnut Creamer,10.50,133,0.0,20.0,6.67,True,True,True,False,low
+"Soup, mix, dry, onion",11.46,293,7.48,65.07,0.34,True,True,True,True,low
+Bacon and beef sticks,5.19,517,29.1,0.8,44.2,True,True,True,True,low
+"Salami, pork, Italian",9.74,425,21.7,1.2,37.0,True,True,True,True,low
+"Crackers, whole-wheat",22.04,427,10.58,69.55,14.13,True,True,False,True,medium
+"Hominy, white, canned",4.64,72,1.48,14.26,0.88,True,True,True,True,low
+"Horseradish, prepared",9.93,48,1.18,11.29,0.69,True,True,True,True,low
+"Lebanon bologna, beef",36.18,172,19.03,0.44,10.44,True,True,True,True,high
+Ham and cheese spread,6.05,245,16.18,2.28,18.53,False,True,True,False,low
+"TACO BELL, Taco Salad",13.02,170,6.69,15.1,9.17,True,True,True,True,medium
+"Sauce, worcestershire",9.04,78,0.0,19.46,0.0,True,True,True,True,low
+"Candies, marshmallows",9.35,318,1.8,81.3,0.2,True,True,True,True,low
+"Hummus, home prepared",2.48,177,4.86,20.12,8.59,True,True,True,True,low
+Horned melon (Kiwano),10.92,44,1.78,7.56,1.26,True,True,True,True,low
+Ice cream sundae cone,6.60,254,3.0,28.89,14.0,True,True,True,False,low
+"Cabbage, cooked, napa",4.64,12,1.1,2.23,0.17,True,True,True,True,low
+"Peppers, dried, ancho",9.66,281,11.86,51.42,8.2,True,True,True,True,medium
+"Parsley, freeze-dried",28.42,271,31.3,42.38,5.2,True,True,True,True,medium
+"Spices, black, pepper",10.50,251,10.39,63.95,3.26,True,True,True,True,low
+"Spices, white, pepper",5.67,296,10.4,68.61,2.12,True,True,True,True,low
+"Nuts, dried, pilinuts",10.07,719,10.8,3.98,79.55,True,True,True,True,low
+"Candies, butterscotch",11.83,391,0.03,90.4,3.3,True,True,True,True,low
+Potato salad with egg,5.92,157,1.96,16.18,9.4,False,True,True,True,low
+"Cheese, Mexican blend",8.29,358,23.54,1.75,28.51,False,True,True,False,low
+"SILK Vanilla, soymilk",9.82,41,2.47,4.12,1.44,False,True,True,False,low
+"Papaya nectar, canned",9.20,57,0.17,14.51,0.15,True,True,True,True,low
+SILK Peach soy yogurt,6.07,94,2.35,18.82,1.18,False,True,True,False,low
+SILK Plain soy yogurt,1.88,66,2.64,9.69,1.76,False,True,True,False,low
+"PACE, Enchilada Sauce",7.36,40,1.67,8.33,0.0,True,True,True,True,low
+"Pasta, enriched, dry",10.82,371,13.04,74.67,1.51,True,True,False,True,low
+"Cookies, gingersnaps",30.04,416,5.6,76.9,9.8,True,True,True,True,medium
+"Sour cream, fat free",4.72,74,3.1,15.6,0.0,True,True,True,False,low
+"MURRAY, Honey Graham",21.24,445,5.9,75.7,13.2,True,True,True,True,medium
+"Frankfurter, chicken",2.52,223,15.51,2.74,16.19,False,False,True,True,low
+"Ham, canned, chopped",2.96,239,16.06,0.26,18.83,True,True,True,True,low
+"Spices, dried, thyme",14.62,276,9.11,63.94,7.43,True,True,True,True,medium
+"Carrot juice, canned",8.70,40,0.95,9.28,0.15,True,True,True,True,low
+"Corn, dried (Navajo)",16.47,386,9.88,74.93,5.22,True,True,True,True,medium
+"Pate, truffle flavor",23.97,327,11.2,6.3,28.5,True,True,True,True,medium
+"Fruit butters, apple",8.10,173,0.39,42.47,0.3,True,True,True,True,low
+"Fast foods, coleslaw",2.29,153,0.95,14.89,9.91,True,True,True,True,low
+"Salami, beef, cooked",2.23,261,12.6,1.9,22.2,True,True,True,True,low
+"Spices, chili powder",28.09,282,13.46,49.7,14.28,True,True,True,True,medium
+"Spices, dried, basil",8.22,233,22.98,47.75,4.07,True,True,True,True,low
+"Pickle relish, sweet",2.03,130,0.37,35.06,0.47,True,True,True,True,low
+"Chives, freeze-dried",10.72,311,21.2,64.29,3.5,True,True,True,True,low
+"Crackers, multigrain",23.96,482,7.1,67.6,20.4,True,True,True,True,medium
+"Spices, ground, mace",23.47,475,6.71,50.5,32.38,True,True,True,True,medium
+"Spices, onion powder",2.02,341,10.41,79.12,1.04,True,True,True,True,low
+"Butter, without salt",2.24,717,0.85,0.06,81.11,True,True,True,True,low
+"Rice noodles, cooked",11.27,108,1.79,24.01,0.2,True,True,True,True,low
+"Garlic bread, frozen",10.39,350,8.36,41.72,16.61,True,True,False,True,medium
+"KFC, Popcorn Chicken",12.58,351,17.67,21.18,21.74,False,False,True,True,medium
+"APPLEBEE'S, coleslaw",10.70,120,0.79,13.17,7.09,True,True,True,True,low
+"Rolls, sweet, dinner",25.92,321,10.04,53.58,7.37,True,True,True,True,medium
+"SILK Coffee, soymilk",11.01,62,2.06,10.29,1.44,False,True,True,False,low
+"Snacks, banana chips",9.61,519,2.3,58.4,33.6,True,True,True,True,low
+"Rolls, wheat, dinner",22.79,273,8.6,46.0,6.3,True,True,False,True,medium
+"Candies, HEATH BITES",2.15,530,3.94,63.39,30.38,True,True,True,True,low
+"KEEBLER, Sugar Cones",5.59,375,7.3,78.0,3.7,True,True,True,True,low
+"Seaweed, dried, agar",2.42,306,6.21,80.88,0.3,True,True,True,True,low
+"Bread, cracked-wheat",6.44,260,8.7,49.5,3.9,True,True,False,True,low
+"Polish sausage, pork",1.94,326,14.1,1.63,28.72,True,True,True,True,low
+"Spices, curry powder",9.03,325,14.29,55.83,14.01,True,True,True,True,medium
+"Bacon bits, meatless",50.80,476,32.0,28.6,25.9,False,False,True,True,high
+"Semolina, unenriched",2.68,360,12.68,72.83,1.05,True,True,True,True,low
+"Grape leaves, canned",2.62,69,4.27,11.71,1.97,True,True,True,True,low
+"Spices, ground, sage",11.41,315,10.63,60.73,12.75,True,True,True,True,medium
+"PACE, Red Taco Sauce",7.75,50,0.0,12.5,0.0,True,True,True,True,low
+"DENNY'S, hash browns",8.53,197,2.49,26.59,8.99,True,True,True,True,low
+"DENNY'S, onion rings",21.96,385,5.29,41.05,22.23,True,True,True,True,medium
+"Oil, corn and canola",7.82,884,0.0,0.0,100.0,True,True,True,True,low
+"Celery flakes, dried",4.82,319,11.3,63.7,2.1,True,True,True,True,low
+"Crackers, egg, matzo",4.09,391,12.3,78.6,2.1,False,True,True,True,low
+"Loganberries, frozen",9.92,55,1.52,13.02,0.31,True,True,True,True,low
+"Soybean, curd cheese",43.08,151,12.5,6.9,8.1,False,True,True,False,high
+"Tostada shells, corn",8.06,474,6.15,64.43,23.38,True,True,True,True,medium
+"Fish, smoked, cisco",19.22,177,16.36,0.0,11.9,False,False,True,True,high
+"Frankfurter, turkey",7.10,223,12.23,3.81,17.29,True,True,True,True,low
+"Candies, jellybeans",10.97,375,0.0,93.55,0.05,True,True,True,True,low
+"Oil, ucuhuba butter",1.85,884,0.0,0.0,100.0,True,True,True,True,low
+Soy protein isolate,53.05,335,88.32,0.0,3.39,True,True,True,True,high
+"Syrups, light, corn",7.46,283,0.0,76.79,0.2,True,True,True,True,low
+"Mother's loaf, pork",12.48,282,12.07,7.53,22.3,True,True,True,True,medium
+"Tapioca, dry, pearl",11.95,358,0.19,88.69,0.02,True,True,True,True,low
+"Spices, celery seed",19.87,392,18.07,41.35,25.27,True,True,True,True,medium
+"Candies, peanut bar",21.75,522,15.5,47.4,33.7,True,True,True,True,medium
+"Bread, toasted, rye",7.84,284,9.4,53.1,3.6,True,True,False,True,low
+"Oil, apricot kernel",9.23,884,0.0,0.0,100.0,True,True,True,True,low
+"Candies, YORK BITES",5.91,394,1.78,81.64,7.32,True,True,True,True,low
+"Meatballs, meatless",33.00,197,21.0,8.0,9.0,False,False,True,True,high
+"Sweet rolls, cheese",23.59,360,7.1,43.7,18.3,False,True,True,False,medium
+"Figs, stewed, dried",7.36,107,1.42,27.57,0.4,True,True,True,True,low
+"Bread sticks, plain",12.56,412,12.0,68.4,9.5,True,True,False,True,medium
+"SILK Mocha, soymilk",11.53,58,2.06,9.05,1.44,False,True,True,False,low
+Milk and cereal bar,22.50,413,6.47,72.05,10.98,False,True,True,False,medium
+"Bread, pumpernickel",1.76,250,8.7,47.5,3.1,True,True,False,True,low
+"PACE, Pico De Gallo",4.18,31,0.0,9.38,0.0,True,True,True,True,low
+"HORMEL, Cure 81 Ham",41.26,106,18.43,0.21,3.59,True,True,True,True,high
+"Prune juice, canned",11.40,71,0.61,17.45,0.03,True,True,True,True,low
+"McDONALD'S, BIG MAC",14.00,257,11.82,20.08,14.96,True,True,True,True,medium
+"Bread, toasted, egg",15.50,315,10.5,52.6,6.6,False,True,False,True,medium
+"Spices, fennel seed",25.01,345,15.8,52.29,14.87,True,True,True,True,medium
+"Toppings, pineapple",4.45,253,0.1,66.4,0.1,True,True,True,True,low
+Acorn stew (Apache),3.05,95,6.81,9.22,3.47,True,True,True,True,low
+"Tomatoes, sun-dried",6.06,258,14.11,55.76,2.97,True,True,True,True,low
+"Guava sauce, cooked",4.94,36,0.32,9.48,0.14,True,True,True,True,low
+"Melon balls, frozen",2.13,33,0.84,7.94,0.25,True,True,True,True,low
+"Fish oil, cod liver",11.10,902,0.0,0.0,100.0,False,False,True,True,low
+"Nuts, dried, acorns",21.34,509,8.1,53.66,31.41,True,True,True,True,medium
+"Rolls, pumpernickel",11.34,276,10.8,51.87,2.8,True,True,True,True,low
+"Gravy, dry, chicken",26.05,381,11.27,62.09,9.73,False,False,True,True,medium
+"Ice creams, vanilla",8.51,207,3.5,23.6,11.0,True,True,True,False,low
+"SILK Plain, soymilk",6.77,41,2.88,3.29,1.65,False,True,True,False,low
+"Corn grain, yellow",9.20,365,9.42,74.26,4.74,True,True,True,True,low
+Ice cream sandwich,3.11,237,4.29,37.14,8.57,True,True,True,False,low
+"Croutons, seasoned",23.50,465,10.8,63.5,18.3,True,True,True,True,medium
+"Snacks, taro chips",10.28,498,2.3,68.1,24.9,True,True,True,True,low
+"Liver cheese, pork",12.29,304,15.2,2.1,25.6,False,True,True,False,low
+Jams and preserves,8.55,278,0.37,68.86,0.07,True,True,True,True,low
+"Oil, nutmeg butter",5.58,884,0.0,0.0,100.0,True,True,True,True,low
+"Semolina, enriched",10.68,360,12.68,72.83,1.05,True,True,True,True,low
+"Spices, anise seed",20.24,337,17.6,50.02,15.9,True,True,True,True,medium
+"Snacks, corn cakes",9.83,387,8.1,83.4,2.4,True,True,True,True,low
+"Catsup, low sodium",1.83,101,1.04,27.4,0.1,True,True,True,True,low
+"Croissants, cheese",9.82,414,9.2,47.0,20.9,False,True,True,False,medium
+"Milk, fluid, sheep",16.39,108,5.98,5.36,7.0,False,True,True,False,medium
+"Fast food, biscuit",14.90,370,7.08,42.82,18.92,True,True,True,True,medium
+"Bagels, multigrain",10.45,241,9.9,47.47,1.24,True,True,True,True,low
+"Beef, dried, cured",62.02,153,31.1,2.76,1.94,True,True,True,True,high
+"Nuts, almond paste",12.55,458,9.0,47.81,27.74,True,True,True,True,medium
+"Fish oil, menhaden",7.00,902,0.0,0.0,100.0,False,False,True,True,low
+"Rolls, egg, dinner",31.54,307,9.5,52.0,6.4,False,True,True,True,medium
+"Bread, white wheat",4.98,238,10.66,43.91,2.15,True,True,False,True,low
+"SILK Chai, soymilk",10.44,53,2.47,7.82,1.44,False,True,True,False,low
+"Rolls, rye, dinner",6.08,286,10.3,53.1,3.4,True,True,False,True,low
+"Gravy, dry, au jus",15.86,313,9.2,47.49,9.63,True,True,True,True,medium
+"Cheese, neufchatel",5.88,253,9.15,3.59,22.78,False,True,True,False,low
+"Hummus, commercial",26.65,166,7.9,14.29,9.6,True,True,True,True,medium
+"Croissants, butter",23.48,406,8.2,45.8,21.0,True,True,True,True,medium
+"Carrot, dehydrated",4.09,341,8.1,79.57,1.49,True,True,True,True,low
+"Vinegar, distilled",1.87,18,0.0,0.04,0.0,True,True,True,True,low
+"Syrups, sugar free",10.19,52,0.8,12.13,0.0,True,True,True,True,low
+"Syrups, dark, corn",11.72,286,0.0,77.59,0.0,True,True,True,True,low
+"Taco shells, baked",27.58,476,6.41,63.49,21.79,True,True,True,True,medium
+"Spices, cumin seed",17.86,375,17.81,44.24,22.27,True,True,True,True,medium
+"Whey, dried, sweet",7.04,353,12.93,74.46,1.07,True,True,True,True,low
+"Whey, fluid, sweet",10.11,27,0.85,5.14,0.36,True,True,True,True,low
+"Spices, poppy seed",22.41,525,17.99,28.13,41.56,True,True,True,True,medium
+"Babyfood, pretzels",11.65,397,10.8,82.2,2.0,True,True,True,True,low
+"Fat, mutton tallow",10.88,902,0.0,0.0,100.0,True,True,True,True,low
+"Coffeecake, cheese",18.45,339,7.0,44.3,15.2,False,True,True,False,medium
+"Sauce, horseradish",3.95,503,1.09,10.05,50.89,True,True,True,True,low
+"Dates, deglet noor",11.26,282,2.45,75.03,0.39,True,True,True,True,low
+"Gravy, dry, turkey",12.78,367,10.42,65.12,7.19,True,True,True,True,medium
+Vital wheat gluten,58.03,370,75.16,13.79,1.85,True,True,False,True,high
+"Sugars, granulated",8.09,387,0.0,99.98,0.0,True,True,True,True,low
+"Frankfurter, pork",7.63,269,12.81,0.28,23.68,True,True,True,True,low
+"Cookies, molasses",23.94,430,5.6,73.8,12.8,True,True,True,True,medium
+"Cookies, fig bars",8.02,348,3.7,70.9,7.3,True,True,True,True,low
+Liverwurst spread,15.22,305,12.38,5.89,25.45,True,True,True,True,medium
+Roast beef spread,6.70,223,15.27,3.73,16.28,True,True,True,True,low
+"TACO BELL, Nachos",6.77,350,4.32,34.91,21.5,True,True,True,True,low
+"Sausage, meatless",24.38,255,20.28,8.09,18.16,False,False,True,True,high
+"Frankfurter, meat",9.59,290,10.26,4.17,25.76,False,False,True,True,low
+"Peppermint, fresh",6.97,70,3.75,14.89,0.94,True,True,True,True,low
+"Vinegar, red wine",10.11,19,0.04,0.27,0.0,True,True,True,True,low
+"Vinegar, balsamic",5.38,88,0.49,17.03,0.0,True,True,True,True,low
+"Luxury loaf, pork",18.56,141,18.4,4.9,4.8,True,True,True,True,high
+"DENNY'S, coleslaw",1.55,183,0.97,10.88,15.03,True,True,True,True,low
+"Bread, wheat bran",10.11,248,8.8,47.8,3.4,True,True,False,True,low
+"Croissants, apple",8.39,254,7.4,37.1,8.7,True,True,True,True,medium
+"Candies, Tamarind",7.37,368,0.0,91.96,0.0,True,True,True,True,low
+"PACE, Salsa Verde",3.26,47,0.0,6.25,1.56,True,True,True,True,low
+"Rice noodles, dry",1.44,364,5.95,80.18,0.56,True,True,True,True,low
+"Fish oil, sardine",5.00,902,0.0,0.0,100.0,False,False,True,True,low
+"Fish oil, herring",8.16,902,0.0,0.0,100.0,False,False,True,True,low
+"Plantains, cooked",5.29,116,0.79,31.15,0.18,True,True,True,True,low
+"Butterbur, canned",10.13,3,0.11,0.38,0.13,True,True,True,True,low
+"SILK Nog, soymilk",5.27,74,2.46,12.3,1.64,False,True,True,False,low
+"Gravy, dry, brown",21.78,367,10.74,59.38,9.61,True,True,True,True,medium
+"Cheese, provolone",6.75,351,25.58,2.14,26.62,False,True,True,False,low
+"Cheese, roquefort",9.74,369,21.54,2.0,30.64,False,True,True,False,low
+"Muffins, oat bran",12.73,270,7.0,48.3,7.4,True,True,True,True,medium
+"Syrups, grenadine",5.40,268,0.0,66.91,0.0,True,True,True,True,low
+"Raisins, seedless",7.30,299,3.07,79.18,0.46,True,True,True,True,low
+"Wheat germ, crude",28.59,360,23.15,51.8,9.72,True,True,False,True,medium
+"Wheat, hard white",10.58,342,11.31,75.9,1.71,True,True,False,True,low
+"Wheat bran, crude",2.60,216,15.55,64.51,4.25,True,True,False,True,low
+"Spices, dill seed",27.99,305,15.98,55.17,14.54,True,True,True,True,medium
+"Oil, cocoa butter",6.73,884,0.0,0.0,100.0,True,True,True,True,low
+"APPLEBEE'S, chili",29.30,157,12.56,4.57,9.79,True,True,True,True,high
+"Marmalade, orange",10.82,246,0.3,66.3,0.0,True,True,True,True,low
+"Whey, dried, acid",6.60,339,11.73,73.45,0.54,True,True,True,True,low
+"Whey, fluid, acid",4.57,24,0.76,5.12,0.09,True,True,True,True,low
+"Eggplant, pickled",7.71,49,0.9,9.77,0.7,False,True,True,True,low
+"Babyfood, cookies",29.87,433,11.8,67.1,13.2,True,True,True,True,medium
+"Egg, dried, whole",49.17,592,48.05,1.13,43.9,False,True,True,True,high
+"Coffeecake, fruit",17.25,311,5.2,51.5,10.2,True,True,True,True,medium
+"Candies, caramels",1.95,382,4.6,77.0,8.1,True,True,True,True,low
+"Sour cream, light",2.61,136,3.5,7.1,10.6,True,True,True,False,low
+"Egg, dried, white",32.22,382,81.1,7.8,0.0,False,True,True,True,high
+"Wild rice, cooked",2.75,101,3.99,21.34,0.34,True,True,True,True,low
+"Chicken, meatless",28.72,224,23.64,3.64,12.73,False,False,True,True,high
+"Corn grain, white",2.76,365,9.42,74.26,4.74,True,True,True,True,low
+"Wheat, soft white",2.71,340,10.69,75.36,1.99,True,True,False,True,low
+"POPEYES, Coleslaw",5.07,161,0.98,14.12,11.18,True,True,True,True,low
+"Cheese, limburger",3.18,327,20.05,0.49,27.25,False,True,True,False,low
+"Corn bran, crude",1.77,224,8.36,85.64,0.92,True,True,True,True,low
+"Bread, rice bran",3.04,243,8.9,43.5,4.6,True,True,False,True,low
+"Sugars, powdered",2.87,389,0.0,99.77,0.0,True,True,True,True,low
+"Cookies, fortune",2.16,378,4.2,84.0,2.7,True,True,True,True,low
+"Couscous, cooked",2.60,112,3.79,23.22,0.16,True,True,True,True,low
+"Dill weed, fresh",6.59,43,3.46,7.02,1.12,True,True,True,True,low
+"Spearmint, dried",29.06,285,19.93,52.04,6.03,True,True,True,True,medium
+"Spearmint, fresh",3.35,44,3.29,8.41,0.73,True,True,True,True,low
+Tamales (Navajo),17.52,153,6.28,18.12,6.12,True,True,True,True,medium
+"Rice bran, crude",30.28,316,13.35,49.69,20.85,True,True,True,True,medium
+"Spices, bay leaf",28.45,313,7.61,74.97,8.36,True,True,True,True,medium
+"Spices, cardamom",28.79,311,10.76,68.47,6.7,True,True,True,True,medium
+"Fish oil, salmon",1.73,902,0.0,0.0,100.0,False,False,True,True,low
+"Fish, tuna salad",21.87,187,16.04,9.41,9.26,False,False,True,True,high
+"Cheese, muenster",1.97,368,23.41,1.12,30.04,False,True,True,False,low
+"Cheese, cheshire",11.30,387,23.37,4.78,30.6,False,True,True,False,low
+"Bagels, oat bran",1.91,255,10.7,53.3,1.2,True,True,True,True,low
+"Fat, beef tallow",3.93,902,0.0,0.0,100.0,True,True,True,True,low
+"Oat bran, cooked",3.18,40,3.21,11.44,0.86,True,True,True,True,low
+"Sugar, turbinado",5.51,399,0.0,99.8,0.0,True,True,True,True,low
+"Headcheese, pork",63.11,157,13.83,0.0,10.9,False,True,True,False,high
+Ham salad spread,14.10,216,8.68,10.64,15.53,True,True,True,True,medium
+"Olive loaf, pork",16.49,235,11.8,9.2,16.5,True,True,True,True,medium
+"Pastrami, turkey",47.40,139,16.3,3.34,6.21,True,True,True,True,high
+"POPEYES, biscuit",28.77,401,6.0,40.95,23.71,True,True,True,True,medium
+"Egg, dried, yolk",7.50,669,33.63,0.66,59.13,False,True,True,True,low
+"Cheese, monterey",6.09,373,24.48,0.68,30.28,False,True,True,False,low
+"Cheese, cheddar",9.70,404,22.87,3.09,33.31,False,True,True,False,low
+"Oil, wheat germ",3.75,884,0.0,0.0,100.0,True,True,False,True,low
+"Bread, oat bran",8.92,236,10.4,39.8,4.4,True,True,False,True,low
+Potato pancakes,12.59,268,6.08,27.81,14.76,True,True,True,True,medium
+Spinach souffle,19.24,172,7.89,5.9,12.95,True,True,True,True,medium
+"Bacon, meatless",27.00,309,11.69,5.31,29.52,False,False,True,True,medium
+"Rosemary, fresh",6.68,131,3.31,20.7,5.86,True,True,True,True,low
+"Syrups, sorghum",7.33,290,0.0,74.9,0.0,True,True,True,True,low
+"Oil, tomatoseed",5.76,884,0.0,0.0,100.0,True,True,True,True,low
+"Croutons, plain",25.12,407,11.9,73.5,6.6,True,True,True,True,medium
+"Spices, paprika",22.11,282,14.14,53.99,12.89,True,True,True,True,medium
+"Sauce, barbecue",1.45,172,0.82,40.77,0.63,True,True,True,True,low
+"Pimento, canned",2.41,23,1.1,5.1,0.3,True,True,True,True,low
+"Raisins, seeded",8.00,296,2.52,78.47,0.54,True,True,True,True,low
+"Bologna, turkey",8.92,209,11.42,4.68,16.05,True,True,True,True,low
+Vanilla extract,8.94,288,0.06,12.65,0.06,True,True,True,True,low
+"Wheat, sprouted",6.04,198,7.49,42.53,1.27,True,True,False,True,low
+"Bread, cinnamon",10.74,253,7.05,44.38,5.29,True,True,False,True,medium
+"Spices, saffron",21.51,310,11.43,65.37,5.85,True,True,True,True,medium
+"Cabbage, kimchi",7.08,15,1.1,2.4,0.5,True,True,True,True,low
+"Seeds, flaxseed",28.54,534,18.29,28.88,42.16,True,True,True,True,medium
+"Cheese, gruyere",9.07,413,29.81,0.36,32.34,False,True,True,False,low
+"Cheese, gjetost",10.92,466,9.65,42.65,29.51,False,True,True,False,medium
+"Cheese, fontina",5.59,389,25.6,1.55,31.14,False,True,True,False,low
+"Butter, salted",2.37,717,0.85,0.06,81.11,True,True,True,True,low
+"Oil, rice bran",4.12,884,0.0,0.0,100.0,True,True,True,True,low
+"Crackers, milk",20.29,446,7.6,71.73,13.77,False,True,True,False,medium
+"Dates, medjool",4.84,277,1.81,74.97,0.15,True,True,True,True,low
+"Bread, oatmeal",7.42,269,8.4,48.5,4.4,True,True,False,True,low
+"Bread, italian",5.05,271,8.8,50.1,3.5,True,True,False,True,low
+"Millet, puffed",7.19,354,13.0,80.0,3.4,True,True,True,True,low
+"Vinegar, cider",3.84,21,0.0,0.93,0.0,True,True,True,True,low
+"Scrapple, pork",27.28,213,8.06,14.06,13.87,True,True,True,True,medium
+"Oil, poppyseed",2.25,884,0.0,0.0,100.0,True,True,True,True,low
+"Oil, grapeseed",2.79,884,0.0,0.0,100.0,True,True,True,True,low
+"Longans, dried",3.65,286,4.9,74.0,0.4,True,True,True,True,low
+"Pectin, liquid",2.82,11,0.0,2.1,0.0,True,True,True,True,low
+"Pretzels, soft",3.09,338,8.2,69.39,3.1,True,True,True,True,low
+"Quinoa, cooked",3.97,120,4.4,21.3,1.92,True,True,True,True,low
+"Parsley, fresh",11.34,36,2.97,6.33,0.79,True,True,True,True,low
+"Barley, hulled",2.06,354,12.48,73.48,2.3,True,True,False,True,low
+"Cheese, romano",30.70,387,31.8,3.63,26.94,False,True,True,False,high
+Dulce de Leche,23.07,315,6.84,55.35,7.35,True,True,True,True,medium
+"Bulgur, cooked",5.27,83,3.08,18.58,0.24,True,True,True,True,low
+"Tempeh, cooked",22.41,195,19.91,7.62,11.38,True,True,True,True,high
+Chicken spread,54.36,158,18.01,4.05,17.56,False,False,True,True,high
+"Millet, cooked",12.55,119,3.51,23.67,1.0,True,True,True,True,low
+"Capers, canned",2.25,23,2.36,4.89,0.86,True,True,True,True,low
+"Litchis, dried",4.17,277,3.8,70.7,1.2,True,True,True,True,low
+"Strudel, apple",11.18,274,3.3,41.1,11.2,True,True,True,True,low
+"Oil, cupu assu",7.61,884,0.0,0.0,100.0,True,True,True,True,low
+"Cheese, tilsit",4.06,340,24.41,1.88,25.98,False,True,True,False,low
+"Cheese, brick",5.49,371,23.24,2.79,29.68,False,True,True,False,low
+"Sugars, brown",6.45,380,0.12,98.09,0.0,True,True,True,True,low
+Candied fruit,3.75,322,0.34,82.74,0.07,True,True,True,True,low
+"Bologna, beef",2.26,299,10.91,4.29,26.13,True,True,True,True,low
+Blood sausage,7.61,379,14.6,1.29,34.5,True,True,True,True,low
+"Nuts, almonds",23.92,579,21.15,21.55,49.93,True,True,True,True,medium
+"Couscous, dry",7.89,376,12.76,77.43,0.64,True,True,True,True,low
+"Candies, hard",2.82,394,0.0,98.0,0.2,True,True,True,True,low
+Meat extender,31.59,311,41.71,34.71,2.97,False,False,True,True,high
+"Syrups, maple",6.45,260,0.04,67.04,0.06,True,True,True,True,low
+Sorghum grain,7.08,329,10.62,72.09,3.46,True,True,True,True,low
+"Oil, hazelnut",1.63,884,0.0,0.0,100.0,True,True,True,True,low
+"Pepeao, dried",4.89,298,4.82,81.03,0.44,True,True,True,True,low
+"Rolls, french",12.69,277,8.6,50.2,4.3,True,True,True,True,low
+"Bagels, wheat",4.95,250,10.2,48.89,1.53,True,True,False,True,low
+"KFC, Coleslaw",9.77,144,0.91,15.65,8.64,True,True,True,True,low
+"Sugars, maple",8.35,354,0.1,90.9,0.2,True,True,True,True,low
+Rice crackers,23.66,416,10.0,82.64,5.0,True,True,True,True,medium
+"Cheese, colby",7.50,394,23.76,2.57,32.11,False,True,True,False,low
+"Cheese, cream",14.94,350,6.15,5.52,34.44,False,True,True,False,medium
+"Bologna, pork",6.29,247,15.3,0.73,19.87,True,True,True,True,low
+"Spelt, cooked",10.34,127,5.5,26.44,0.85,True,True,True,True,low
+"Bread, cheese",25.52,408,10.42,44.83,20.83,False,True,False,False,medium
+"Bread, potato",10.33,266,12.5,47.07,3.13,True,True,False,True,low
+"Cheese, swiss",2.60,393,26.96,1.44,30.99,False,True,True,False,low
+"Cheese, gouda",8.46,356,24.94,2.22,27.44,False,True,True,False,low
+Tomato powder,10.56,302,12.91,74.68,0.44,True,True,True,True,low
+"Cheese, blue",3.10,353,21.4,2.34,28.74,False,True,True,False,low
+"Cheese, brie",1.86,334,20.75,0.45,27.68,False,True,True,False,low
+"Thyme, fresh",7.71,101,5.56,24.45,1.68,True,True,True,True,low
+"Basil, fresh",21.35,23,3.15,2.65,0.64,True,True,True,True,high
+"Syrups, malt",10.56,318,6.2,71.3,0.0,True,True,True,True,low
+"Oil, teaseed",3.13,884,0.0,0.0,100.0,True,True,True,True,low
+"Oil, sheanut",2.83,884,0.0,0.0,100.0,True,True,True,True,low
+"Oil, babassu",3.00,884,0.0,0.0,100.0,True,True,True,True,low
+"Fish, surimi",30.17,99,15.18,6.85,0.9,False,False,True,True,high
+"Bread, wheat",5.07,267,10.72,48.68,3.24,True,True,False,True,low
+"Cheese, edam",6.55,357,24.99,1.43,27.8,False,True,True,False,low
+"Cheese, feta",4.46,264,14.21,4.09,21.28,False,True,True,False,low
+Cracker meal,3.76,383,9.3,80.9,1.7,True,True,True,True,low
+"Oil, coconut",6.77,892,0.0,0.0,99.06,True,True,True,True,low
+"Wheat, durum",10.93,339,13.68,71.13,2.47,True,True,False,True,low
+"KFC, biscuit",26.32,358,7.5,43.55,17.05,True,True,True,True,medium
+"Teff, cooked",5.18,101,3.87,19.86,0.65,True,True,True,True,low
+"Oil, mustard",9.72,884,0.0,0.0,100.0,True,True,True,True,low
+"Oil, avocado",8.25,884,0.0,0.0,100.0,True,True,True,True,low
+Phyllo dough,29.13,299,7.1,52.6,6.0,True,True,True,True,medium
+"Fat, chicken",10.25,900,0.0,0.0,99.8,False,False,True,True,low
+Fruit syrup,9.14,341,0.0,85.13,0.0,True,True,True,True,low
+Prune puree,8.97,257,2.1,65.1,0.2,True,True,True,True,low
+"Salt, table",10.32,0,0.0,0.0,0.0,True,True,True,True,low
+Chewing gum,4.57,360,0.0,96.7,0.3,True,True,True,True,low
+"Fat, turkey",9.92,900,0.0,0.0,99.8,True,True,True,True,low
+"Tofu, fried",29.25,270,18.82,8.86,20.18,True,True,True,True,medium
+Tofu yogurt,10.38,94,3.5,15.96,1.8,False,True,True,False,low
+"Bagels, egg",3.87,278,10.6,53.0,2.1,False,True,True,True,low
+"Bulgur, dry",9.47,342,12.29,75.87,1.33,True,True,True,True,low
+"Ham, minced",8.27,263,16.28,1.84,20.68,True,True,True,True,low
+"Oil, almond",6.85,884,0.0,0.0,100.0,True,True,True,True,low
+"Oil, walnut",3.64,884,0.0,0.0,100.0,True,True,True,True,low
+"Oil, canola",3.33,884,0.0,0.0,100.0,True,True,True,True,low
+"Syrup, Cane",10.43,269,0.0,73.14,0.0,True,True,True,True,low
+Clif Z bar,19.18,409,5.55,74.72,9.72,True,True,True,True,medium
+Fish broth,30.62,16,2.0,0.4,0.6,False,False,True,True,high
+"Fat, goose",5.59,900,0.0,0.0,99.8,True,True,True,True,low
+"Bread, rye",6.10,259,8.5,48.3,3.3,True,True,False,True,low
+"Pie, peach",7.15,224,1.9,32.9,10.0,True,True,True,True,low
+"Bread, egg",20.57,287,9.5,47.8,6.0,False,True,False,True,medium
+Buckwheat,11.60,343,13.25,71.5,3.4,True,True,False,True,low
+"Oil, palm",7.56,884,0.0,0.0,100.0,True,True,True,True,low
+"Fat, duck",8.53,882,0.0,0.0,99.8,True,True,True,True,low
+Triticale,11.70,336,13.05,72.13,2.09,True,True,True,True,low
+Rye grain,9.52,338,10.34,75.86,1.63,True,True,False,True,low
+Molasses,10.53,290,0.0,74.73,0.1,True,True,True,True,low
+Zwieback,25.61,426,10.1,74.2,9.7,True,True,True,True,medium
+"Oil, oat",6.53,884,0.0,0.0,100.0,True,True,True,True,low
+Jellies,2.25,266,0.15,69.95,0.02,True,True,True,True,low
+Eggnog,12.52,88,4.55,8.05,4.19,False,True,True,True,low
+Catsup,10.23,101,1.04,27.4,0.1,True,True,True,True,low
+Tempeh,47.52,192,20.29,7.64,10.8,True,True,True,True,high
+Wasabi,2.43,292,2.23,46.13,10.9,True,True,True,True,low
+Honey,11.15,304,0.3,82.4,0.0,True,True,True,True,low
+Natto,56.97,211,19.4,12.68,11.0,True,True,True,True,high
+Okara,11.37,76,3.52,12.23,1.73,True,True,True,True,low
+Papad,7.16,371,25.56,59.87,3.25,True,True,True,True,low
+Lard,7.42,902,0.0,0.0,100.0,True,True,True,True,low
+Oats,21.90,389,16.89,66.27,6.9,True,True,True,True,medium
+Miso,24.54,198,12.79,25.37,6.01,True,True,True,True,medium
+Poi,5.22,112,0.38,27.23,0.14,True,True,True,True,low
+"Spices, dried, oregano",1.75,265,9.0,68.92,4.28,True,True,True,True,low
+"CRACKER BARREL, coleslaw",4.70,175,0.89,13.01,13.22,True,True,True,True,low
+"Cookies, chocolate wafers",24.92,433,6.6,72.7,14.2,True,True,True,True,medium
+"Egg, poached, cooked, whole",50.67,143,12.51,0.71,9.47,False,True,True,True,high
+"Noodles, chow mein, chinese",28.42,475,8.11,72.8,15.43,True,True,True,True,medium
+"Oil, cold pressed, flaxseed",6.72,884,0.11,0.0,99.98,True,True,True,True,low
+"Cheese, queso anejo, mexican",4.79,373,21.44,4.63,29.98,False,True,True,False,low
+"Smelt, dried (Alaska Native)",52.59,386,56.19,0.0,17.9,True,True,True,True,high
+"Lamb, broiled, cooked, ground",38.38,283,24.75,0.0,19.65,True,True,True,True,high
+"Tofu, dried-frozen (koyadofu)",48.15,477,52.47,10.03,30.34,True,True,True,True,high
+Poultry salad sandwich spread,15.06,200,11.64,7.41,13.52,True,True,True,True,medium
+"Salami, beef and pork, cooked",4.60,336,21.85,2.4,25.9,True,True,True,True,low
+"Yogurt, nonfat, fruit variety",5.96,95,4.4,19.0,0.2,False,True,True,False,low
+"Babyfood, vegetable, crackers",17.45,477,8.4,66.85,19.6,True,True,True,True,medium
+"Babyfood, fruit, baby, cookie",11.12,435,6.8,73.7,12.6,True,True,True,True,medium
+"Fish, smoked, chinook, salmon",33.14,117,18.28,0.0,4.32,False,False,True,True,high
+HOUSE FOODS Premium Firm Tofu,19.49,85,10.92,0.97,4.19,True,True,True,True,high
+"Crackers, whole grain, cheese",22.44,412,9.62,57.29,16.03,False,True,True,False,medium
+"Peppers, canned, green, chili",3.73,21,0.72,4.6,0.27,True,True,True,True,low
+"Pumpkin, without salt, canned",6.13,34,1.1,8.09,0.28,True,True,True,True,low
+"Dove, cooked (includes squab)",18.01,213,23.9,0.0,13.0,True,True,True,True,high
+"Beverages, orange, carbonated",2.67,48,0.0,12.3,0.0,True,True,True,True,low
+"Kefir, LIFEWAY, plain, lowfat",2.94,41,3.79,4.48,0.93,True,True,True,True,low
+"Candies, ALMOND JOY Candy Bar",6.80,479,4.13,59.51,26.93,True,True,True,True,low
+"Cheese substitute, mozzarella",17.82,248,11.47,23.67,12.22,False,True,True,False,medium
+"Wheat, cooked, KAMUT khorasan",5.64,132,5.71,27.6,0.83,True,True,False,True,low
+"Sauce, ready-to-serve, hoisin",10.52,220,3.31,44.08,3.39,True,True,True,True,low
+"Sauce, ready-to-serve, oyster",5.29,51,1.35,10.92,0.25,True,True,True,True,low
+"Noodles, dry, somen, japanese",7.75,356,11.35,74.1,0.81,True,True,True,True,low
+"Crackers, reduced fat, cheese",21.26,418,10.0,68.19,11.67,False,True,True,False,medium
+"Cookies, reduced fat, oatmeal",8.65,365,4.02,64.62,10.04,True,True,True,True,low
+"Cranberries, sweetened, dried",1.44,308,0.17,82.8,1.09,True,True,True,True,low
+"Cheese, queso cotija, mexican",8.11,366,20.0,3.97,30.0,False,True,True,False,low
+"Rolls, hard (includes kaiser)",2.96,293,9.9,52.7,4.3,True,True,True,True,low
+"Ostrich, cooked, inside strip",33.34,164,29.37,0.0,4.26,True,True,True,True,high
+"SILK Light Chocolate, soymilk",11.09,49,2.06,9.05,0.62,False,True,True,False,low
+"Candies, sugar-coated almonds",15.80,474,10.0,68.26,17.93,True,True,True,True,medium
+"KELLOGG'S, Corn Flakes Crumbs",2.92,367,7.5,84.4,0.4,True,True,True,True,low
+"Cheese, queso seco, dry white",39.95,325,24.51,2.04,24.35,False,True,True,False,high
+"Beets, drained solids, canned",6.01,31,0.91,7.21,0.14,True,True,True,True,low
+"Beef, reduced sodium, bologna",2.22,310,11.7,2.0,28.4,True,True,True,True,low
+"Fast foods, hot fudge, sundae",12.08,180,3.57,30.17,5.46,True,True,True,True,low
+"KEEBLER, Iced Oatmeal Cookies",22.25,467,6.5,69.5,18.3,True,True,True,True,medium
+"Ice creams, fat free, vanilla",6.26,138,4.48,30.06,0.0,True,True,True,False,low
+"Turkey Pot Pie, frozen entree",8.71,176,6.5,17.7,8.8,True,True,True,True,medium
+"Peanut butter, reduced sodium",8.54,590,24.0,21.83,49.9,True,True,True,True,medium
+"Oil, salad or cooking, peanut",7.00,884,0.0,0.0,100.0,True,True,True,True,low
+"Syrups, fudge-type, chocolate",1.77,350,4.6,62.9,8.9,True,True,True,True,low
+"Corn, steamed (Navajo), white",25.76,386,9.72,75.2,5.18,True,True,True,True,medium
+"Spices, dried, coriander leaf",8.70,279,21.93,52.1,4.78,True,True,True,True,low
+"Popovers, unenriched, dry mix",3.65,371,10.4,71.0,4.3,True,True,True,True,low
+"Candies, with almonds, nougat",3.31,398,3.33,92.39,1.67,True,True,True,True,low
+"Candies, REESE'S PIECES Candy",17.10,497,12.46,59.86,24.77,True,True,True,True,medium
+"Sauce, ready-to-serve, cheese",11.41,174,6.71,6.83,13.29,False,True,True,False,medium
+"Noodles, unenriched, dry, egg",3.46,384,14.16,71.27,4.44,False,True,True,True,low
+"Egg, scrambled, cooked, whole",1.55,149,9.99,1.61,10.98,False,True,True,True,low
+"Jujube, dried, fresh, Chinese",6.50,281,4.72,72.52,0.5,True,True,True,True,low
+"GIRL SCOUTS, Trefoils Cookies",20.11,498,5.7,68.0,22.9,True,True,True,True,medium
+"Blueberries, sweetened, dried",7.54,317,2.5,80.0,2.5,True,True,True,True,low
+"McDONALD'S, Hot Mustard Sauce",1.88,190,2.6,29.08,7.31,True,True,True,True,low
+"Candies, PAYDAY Bar, HERSHEYS",23.87,490,13.44,52.88,25.0,True,True,True,True,medium
+"Sauce, ready-to-serve, tartar",10.37,211,1.0,13.3,16.7,True,True,True,True,low
+Pulled pork in barbecue sauce,6.55,168,13.19,18.74,4.42,True,True,True,True,low
+"Sauce, thick, white, homemade",6.29,186,3.99,11.61,13.83,True,True,True,True,low
+"Veal, broiled, cooked, ground",30.76,172,24.38,0.0,7.56,True,True,True,True,high
+"Bread, bollilo, Mexican, roll",12.76,318,10.65,55.77,5.8,True,True,False,True,medium
+"McDONALD'S, Chicken McNUGGETS",21.98,302,15.79,15.09,19.81,False,False,True,True,medium
+"Cereals ready-to-eat, FAMILIA",9.65,388,9.5,73.8,6.3,True,True,True,True,medium
+"Leavening agents, baking soda",6.71,0,0.0,0.0,0.0,True,True,True,True,low
+"Asparagus, unprepared, frozen",2.84,24,3.23,4.1,0.23,True,True,True,True,low
+"English muffins, whole-wheat",3.26,203,8.8,40.4,2.1,True,True,False,True,low
+"Ice creams, light, chocolate",9.55,187,5.0,25.7,7.19,True,True,True,False,medium
+"Crackers, wheat, melba toast",11.06,374,12.9,76.4,2.3,True,True,False,True,low
+"Crackers, plain, melba toast",10.60,390,12.1,76.6,3.2,True,True,True,True,low
+"Crackers, plain, wafers, rye",5.28,334,9.6,80.4,0.9,True,True,False,True,low
+"Fish, dry heat, cooked, ling",53.13,111,24.35,0.0,0.82,False,False,True,True,high
+"Fish, dry heat, cooked, cusk",44.45,112,24.35,0.0,0.88,False,False,True,True,high
+"Peanut spread, reduced sugar",19.70,650,24.8,14.23,54.89,True,True,True,True,medium
+"Beerwurst, pork, beer salami",8.16,238,14.24,2.06,18.8,True,True,True,True,low
+"Babyfood, junior, beef, meat",53.89,81,12.03,2.43,2.52,False,False,True,True,high
+"Peppers, sauteed, red, sweet",5.35,133,1.04,6.57,12.75,True,True,True,True,low
+"Tree fern, with salt, cooked",1.37,40,0.29,10.78,0.07,True,True,True,True,low
+"Oil, salad or cooking, olive",2.65,884,0.0,0.0,100.0,True,True,True,True,low
+"Rambutan, syrup pack, canned",8.99,82,0.65,20.87,0.21,True,True,True,True,low
+"Bologna, beef, pork, chicken",19.64,272,11.33,5.61,22.73,False,False,True,True,medium
+"DENNY'S, golden fried shrimp",22.13,319,13.88,20.93,20.01,True,True,True,True,medium
+"McDONALD'S, Hot Fudge Sundae",1.51,186,4.14,30.05,5.91,True,True,True,True,low
+"PEPPERIDGE FARM, White Bread",3.88,280,0.01,50.2,5.1,True,True,False,True,low
+"Crackers, low sodium, cheese",24.64,503,10.1,58.2,25.3,False,True,True,False,medium
+"USDA Commodity, canned, pork",37.79,196,19.4,0.59,12.95,True,True,True,True,high
+Orange Pineapple Juice Blend,3.64,51,0.41,12.2,0.08,True,True,True,True,low
+"Beverages, hard cider, AMBER",8.38,56,0.0,5.92,0.0,True,True,True,True,low
+"Babyfood, apple-banana juice",1.39,51,0.2,12.3,0.1,True,True,True,True,low
+"Spices, ground, mustard seed",29.45,508,26.08,28.09,36.24,True,True,True,True,medium
+"ON THE BORDER, refried beans",18.54,144,7.3,17.52,5.0,True,True,True,True,medium
+"Cornmeal, white, whole-grain",2.29,362,8.12,76.89,3.59,True,True,True,True,low
+"Kanpyo, (dried gourd strips)",9.76,258,8.58,65.03,0.56,True,True,True,True,low
+"Pancakes, reduced fat, plain",3.34,269,5.71,57.32,1.9,True,True,True,True,low
+"Tennis Bread, plain (Apache)",8.80,258,9.0,53.26,1.05,True,True,False,True,low
+"USDA Commodity, canned, beef",51.44,246,20.52,0.0,17.57,True,True,True,True,high
+"Yogurt, lowfat, plain, Greek",20.95,73,9.95,3.94,1.92,False,True,True,False,high
+"Cheese, low sodium, parmesan",28.32,451,41.6,3.7,29.99,False,True,True,False,high
+"Peppers, canned, hot pickled",2.44,22,0.8,4.56,0.4,True,True,True,True,low
+"McDONALD'S, Hotcakes (plain)",15.84,228,6.0,38.27,5.84,True,True,True,True,medium
+"MURRAY, JACKS Vanilla Wafers",8.46,438,4.8,78.1,11.9,True,True,True,True,low
+"Noodles, dry, soba, japanese",9.79,336,14.38,74.62,0.71,True,True,True,True,low
+"Beverages, powder, Cocoa mix",9.45,398,6.67,83.73,4.0,True,True,True,True,low
+"Dessert topping, pressurized",5.93,264,0.98,16.07,22.3,True,True,True,True,low
+"Cheese, reduced fat, cheddar",50.73,309,27.35,4.06,20.41,False,True,True,False,high
+"Cream, light whipping, fluid",8.90,292,2.17,2.96,30.91,True,True,True,False,low
+"Cream, heavy whipping, fluid",3.30,340,2.84,2.74,36.08,True,True,True,False,low
+"Pinon Nuts, roasted (Navajo)",24.00,541,7.41,51.06,34.08,True,True,True,True,medium
+"Bread, toasted, pumpernickel",11.63,275,9.5,52.2,3.4,True,True,False,True,low
+"Bread, enriched, white, pita",1.35,275,9.1,55.7,1.2,True,True,False,True,low
+"Muffins, dry mix, wheat bran",14.15,396,7.1,73.0,12.0,True,True,False,True,medium
+"Candies, semisweet chocolate",2.06,480,4.2,63.9,30.0,True,True,True,True,low
+"Sauce, dry, cheese sauce mix",18.52,438,7.68,60.52,18.33,False,True,True,False,medium
+"Cranberry juice, unsweetened",3.38,46,0.39,12.2,0.13,True,True,True,True,low
+"Ostrich, cooked, tip trimmed",16.90,145,28.49,0.0,2.57,True,True,True,True,high
+"Cake, dry mix, light, yellow",1.46,404,4.7,84.1,5.5,True,True,True,True,low
+"Sweet potato, mashed, canned",7.31,101,1.98,23.19,0.2,True,True,True,True,low
+"Sausage, smoked, hot, turkey",38.63,158,15.05,4.65,8.75,True,True,True,True,high
+"Pastrami, 98% fat-free, beef",32.84,95,19.6,1.54,1.16,True,True,True,True,high
+"Fish, dry heat, cooked, scup",26.92,135,24.21,0.0,3.5,False,False,True,True,high
+"Fish, dry heat, cooked, spot",22.71,158,23.73,0.0,6.28,False,False,True,True,high
+"Babyfood, junior, lamb, meat",32.19,112,15.2,0.0,5.2,False,False,True,True,high
+"Oil, and olive, peanut, corn",11.20,884,0.0,0.0,100.0,True,True,True,True,low
+"Fish, dry heat, cooked, carp",32.25,162,22.86,0.0,7.17,False,False,True,True,high
+"PACE, Dry Taco Seasoning Mix",10.23,188,0.0,56.29,0.0,True,True,True,True,low
+"SMART SOUP, Greek Minestrone",3.96,40,1.7,8.4,0.53,True,True,True,True,low
+"Cream, lowfat, half and half",4.91,72,3.33,3.33,5.0,True,True,True,False,low
+"Babyfood, mixed fruit, juice",7.26,47,0.1,11.7,0.1,True,True,True,True,low
+"Milk shakes, thick chocolate",4.38,119,3.05,21.15,2.7,False,True,True,False,low
+"Babyfood, arrowroot, cookies",10.41,424,7.6,75.4,10.0,True,True,True,True,medium
+"McDONALD'S, Sausage McMUFFIN",9.59,333,12.66,24.52,21.06,True,True,True,True,medium
+HEALTHY REQUEST Tomato juice,6.63,21,0.82,4.53,0.0,True,True,True,True,low
+"Crackers, whole-wheat, matzo",6.36,351,13.1,78.9,1.5,True,True,False,True,low
+"Soup, dry, cubed, beef broth",30.26,170,17.3,16.1,4.0,True,True,True,True,high
+"Puddings, ready-to-eat, rice",4.72,108,3.23,18.39,2.15,True,True,True,True,low
+"Pectin, dry mix, unsweetened",11.95,325,0.3,90.4,0.3,True,True,True,True,low
+"Candies, CARAMELLO Candy Bar",30.02,462,6.19,63.81,21.19,True,True,True,True,medium
+"Mushrooms, stir-fried, white",2.81,26,3.58,4.04,0.33,True,True,True,True,low
+"Snacks, rolls, fruit leather",9.79,371,0.1,85.8,3.0,True,True,True,True,low
+"Sauce, thin, white, homemade",6.90,105,3.77,7.4,6.73,True,True,True,True,low
+"Sauce, ready-to-serve, salsa",10.96,29,1.52,6.64,0.17,True,True,True,True,low
+"Pie fillings, cherry, canned",4.14,115,0.37,28.0,0.07,True,True,True,True,low
+"Yogurt, nonfat, plain, Greek",32.11,59,10.19,3.6,0.39,False,True,True,False,high
+"Crackers, reduced fat, wheat",24.83,444,9.34,71.52,13.37,True,True,False,True,medium
+"Gravy, powder, dry, mushroom",7.60,328,10.0,64.66,4.0,True,True,True,True,low
+"Gravy, dry, unspecified type",15.98,344,13.0,58.0,8.0,True,True,True,True,medium
+"Mushrooms, microwaved, white",8.24,35,3.91,6.04,0.46,True,True,True,True,low
+"Beverages, AMP, Energy drink",3.92,46,0.25,12.08,0.08,True,True,True,True,low
+SILK Black Cherry soy yogurt,2.73,88,2.35,17.06,1.18,False,True,True,False,low
+"Snack, original bar, BALANCE",11.30,415,28.0,48.73,12.0,True,True,True,True,medium
+"Beverages, well, tap, water",9.78,0,0.0,0.0,0.0,True,True,True,True,low
+"Stew, moose (Alaska Native)",46.39,55,6.6,6.0,0.5,True,True,True,True,high
+"Ice creams, rich, chocolate",11.25,251,4.72,19.78,16.98,True,True,True,False,low
+"Oil, walrus (Alaska Native)",7.41,900,0.0,0.0,100.0,True,True,True,True,low
+"Babyfood, junior, ham, meat",39.64,97,11.3,3.7,3.8,False,False,True,True,high
+"MORI-NU, firm, silken, Tofu",28.82,62,6.9,2.4,2.7,True,True,True,True,high
+"MORI-NU, soft, silken, Tofu",53.01,55,4.8,2.9,2.7,True,True,True,True,high
+"Bread, rye, reduced-calorie",4.20,203,9.1,40.5,2.9,True,True,False,True,low
+"Snacks, air-popped, popcorn",1.46,387,12.94,77.78,4.54,True,True,True,True,low
+"Muffins, dry mix, blueberry",10.38,293,3.48,61.0,3.25,True,True,True,True,low
+"Frankfurter, unheated, beef",2.47,316,11.16,3.36,28.3,True,True,True,True,low
+"Corn pudding, home prepared",7.52,131,4.42,16.97,5.04,True,True,True,True,low
+"Popovers, enriched, dry mix",4.33,371,10.4,71.0,4.3,True,True,True,True,low
+"Beef sausage, cooked, fresh",6.68,332,18.21,0.35,27.98,True,True,True,True,low
+"Luncheon meat, canned, pork",7.91,334,12.5,2.1,30.3,False,False,True,True,low
+"MURRAY, Vanilla Sugar Wafer",9.94,527,3.9,70.0,25.7,True,True,True,True,low
+"Syrups, high-fructose, corn",2.59,281,0.0,76.0,0.0,True,True,True,True,low
+"Stew, steamed corn (Navajo)",10.98,112,8.82,10.8,3.75,True,True,True,True,low
+"OSCAR MAYER, Bologna (beef)",9.98,316,11.05,2.45,29.1,True,True,True,True,low
+"Milk, fluid, indian buffalo",7.76,97,3.75,5.18,6.89,False,True,True,False,low
+"Nuts, dried, black, walnuts",10.87,619,24.06,9.58,59.33,True,True,True,True,medium
+"ON THE BORDER, Mexican rice",7.10,195,3.56,34.15,4.86,True,True,True,True,low
+"McDONALD'S, Baked Apple Pie",3.06,323,3.07,43.62,15.66,True,True,True,True,low
+"McDONALD'S, Sausage Biscuit",14.12,376,9.62,27.2,25.4,True,True,True,True,medium
+"CHICK-FIL-A, Chick-n-Strips",54.73,228,21.4,10.39,11.2,True,True,True,True,high
+"Edamame, unprepared, frozen",26.51,109,11.22,7.61,4.73,True,True,True,True,high
+"Quail, total edible, cooked",49.48,227,25.1,0.0,14.1,True,True,True,True,high
+"Cereals, dry, CREAM OF RICE",11.96,370,6.3,82.4,0.5,True,True,True,False,low
+"LEAN POCKETS, Ham N Cheddar",20.31,230,10.28,32.52,6.53,True,True,True,True,medium
+"Snacks, tropical, trail mix",22.98,442,6.3,65.6,17.1,True,True,True,True,medium
+"Sauce, ready-to-serve, fish",29.99,35,5.06,3.64,0.01,False,False,True,True,high
+"Fast foods, caramel, sundae",6.02,196,4.71,31.81,5.98,True,True,True,True,low
+"Pie fillings, canned, apple",5.26,100,0.1,26.1,0.1,True,True,True,True,low
+"Sauce, ready-to-serve, plum",6.82,184,0.89,42.81,1.04,True,True,True,True,low
+"Ostrich, cooked, inside leg",31.36,141,29.01,0.0,1.94,True,True,True,True,high
+"Gravy, mushroom, CAMPBELL'S",1.74,34,0.0,5.08,1.69,True,True,True,True,low
+"Snacks, smoked, beef sticks",13.93,550,21.5,5.4,49.6,True,True,True,True,medium
+"Cheese, whole milk, ricotta",2.88,174,11.26,3.04,12.98,False,True,True,False,low
+SILK French Vanilla Creamer,9.11,133,0.0,20.0,6.67,True,True,True,False,low
+"Bread, canned, boston brown",1.99,195,5.2,43.3,1.5,True,True,False,True,low
+"Cheese, queso blanco, white",7.87,310,20.38,2.53,24.31,False,True,True,False,low
+"Cheese, queso fresco, fresh",4.16,299,18.09,2.98,23.82,False,True,True,False,low
+"Beverages, powder, Lemonade",5.81,376,0.0,97.57,1.05,True,True,True,True,low
+"Apricots, sweetened, frozen",4.41,98,0.7,25.1,0.1,True,True,True,True,low
+"Muffins, toaster-type, corn",30.58,346,5.3,57.9,11.3,True,True,True,True,medium
+"Tomatoes, cooked, ripe, red",5.44,18,0.95,4.01,0.11,True,True,True,True,low
+HORMEL Canadian Style Bacon,41.19,122,16.88,1.87,4.94,True,True,True,True,high
+"McDONALD'S, QUARTER POUNDER",25.64,244,14.1,22.17,11.55,True,True,True,True,medium
+"Brotwurst, link, beef, pork",4.65,323,14.3,2.98,27.8,True,True,True,True,low
+"Pork, cooked, ground, fresh",41.70,297,25.69,0.0,20.77,True,True,True,True,high
+Ham and cheese loaf or roll,6.19,241,13.6,4.0,18.7,False,True,True,False,low
+"CRACKER BARREL, steak fries",8.87,255,3.26,30.87,13.18,True,True,True,True,low
+"McDONALD'S, Sausage Burrito",21.20,277,11.1,22.97,15.63,True,True,True,True,medium
+"Candies, CHUNKY Bar, NESTLE",19.95,475,7.5,60.0,27.5,True,True,True,True,medium
+"Pate, canned, chicken liver",22.99,201,13.45,6.55,13.1,False,False,True,True,high
+"BURGER KING, Chicken Strips",16.50,292,18.2,20.49,15.25,False,False,True,True,medium
+"Cereals ready-to-eat, ALPEN",9.43,352,11.2,75.7,3.3,True,True,True,True,low
+"Light ice cream, Creamsicle",3.77,165,1.54,32.75,3.08,True,True,True,False,low
+"Toppings, marshmallow cream",1.57,322,0.8,79.0,0.3,True,True,True,False,low
+"Sandwich spread, beef, pork",13.91,235,7.66,11.94,17.34,True,True,True,True,medium
+"Nuts, hazelnuts or filberts",16.62,628,14.95,16.7,60.75,True,True,True,True,medium
+"Babyfood, teething biscuits",4.35,392,10.7,76.4,4.2,True,True,True,True,low
+"PACE, Organic Picante Sauce",7.92,25,0.0,6.25,0.0,True,True,True,True,low
+"Potato salad, home-prepared",7.03,143,2.68,11.17,8.2,True,True,True,True,low
+"GIRL SCOUTS, Chalet Cookies",7.39,478,4.2,72.3,19.1,True,True,True,True,low
+"GIRL SCOUTS, Samoas Cookies",4.93,489,3.5,64.1,25.8,True,True,True,True,low
+"Cheese, semisoft type, goat",10.28,364,21.58,0.12,29.84,False,True,True,False,low
+"Candies, unsweetened, carob",23.33,540,8.15,56.29,31.36,True,True,True,True,medium
+"Babyfood, toddler, potatoes",2.47,52,1.0,11.73,0.1,True,True,True,True,low
+"Veal, cooked, seam fat only",2.17,505,11.16,2.11,50.17,True,True,True,True,low
+"Sauce, ready-to-serve, duck",9.02,245,0.36,60.61,0.13,True,True,True,True,low
+"Corn dogs, prepared, frozen",9.19,250,8.57,26.96,12.02,True,True,True,True,medium
+"Seeds, paste, sesame butter",10.92,586,18.08,24.05,50.87,True,True,True,True,medium
+"Noodles, enriched, dry, egg",6.67,384,14.16,71.27,4.44,False,True,True,True,low
+"Persimmons, dried, japanese",9.19,274,1.38,73.43,0.59,True,True,True,True,low
+"Carrots, unprepared, frozen",5.92,36,0.78,7.9,0.46,True,True,True,True,low
+"Fast foods, chicken tenders",18.41,271,19.22,17.25,13.95,False,False,True,True,high
+"Beans, home prepared, baked",8.99,155,5.54,21.63,5.15,True,True,True,True,medium
+"Cream, half and half, fluid",10.31,123,3.13,4.73,10.39,True,True,True,False,low
+"SILK Light Vanilla, soymilk",9.47,33,2.47,4.12,0.82,False,True,True,False,low
+"Turnips, unprepared, frozen",9.21,16,1.04,2.94,0.16,True,True,True,True,low
+"PACE, Cilantro Chunky Salsa",4.30,25,0.0,6.25,0.0,True,True,True,True,low
+"PACE, Chipotle Chunky Salsa",7.80,25,0.0,6.25,0.0,True,True,True,True,low
+"Jams and preserves, apricot",5.36,242,0.7,64.4,0.2,True,True,True,True,low
+"Butter, with salt, whipped",2.26,718,0.49,2.87,78.3,True,True,True,True,low
+"Ham, cooked, smoked, honey",43.39,122,17.93,7.27,2.37,True,True,True,True,high
+"Spaghetti, cooked, spinach",11.02,130,4.58,26.15,0.63,True,True,True,True,low
+"Cookies, soft-type, raisin",10.95,401,4.1,68.0,13.6,True,True,True,True,low
