@@ -153,7 +153,7 @@ export default function DietForm() {
                   <FormItem>
                     <FormLabel>Vegan:</FormLabel>
                     <FormControl>
-                      <input type="checkbox" {...field} />
+                      <input type="checkbox" {...field} className="ml-4" />
                     </FormControl>
                   </FormItem>
                 )}
@@ -165,7 +165,7 @@ export default function DietForm() {
                   <FormItem>
                     <FormLabel>Vegetarian:</FormLabel>
                     <FormControl>
-                      <input type="checkbox" {...field} />
+                      <input type="checkbox" {...field} className="ml-4" />
                     </FormControl>
                   </FormItem>
                 )}
@@ -189,7 +189,7 @@ export default function DietForm() {
                   <FormItem>
                     <FormLabel>Lactose Free:</FormLabel>
                     <FormControl>
-                      <input type="checkbox" {...field} className="p-6" />
+                      <input type="checkbox" {...field} className="ml-4" />
                     </FormControl>
                   </FormItem>
                 )}
