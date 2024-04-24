@@ -87,3 +87,11 @@ Here's an example of the data returned by the API:
     }
 }
 ```
+
+## Running the Server
+
+To run the Test use the following commands
+
+```bash
+ py manage.py test healthy_diet_planner_app
+```
