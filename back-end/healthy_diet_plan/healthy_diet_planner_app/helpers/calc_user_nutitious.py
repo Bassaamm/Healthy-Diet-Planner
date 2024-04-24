@@ -2,16 +2,17 @@
 def get_user_nutritious(user_data):
     try:
         weight = round(float(user_data['weight']))
-        height = float(user_data['height'])
+        height = round(float(user_data['height']))
         age = int(user_data['age'])
         gender = user_data['gender']
         activity_level = user_data['activity_level']
+        diet_goal = user_data['diet_goal']
         
 
         # gender and activity level input
         if gender not in ['M', 'F'] or activity_level not in ['S', 'LA', 'A', 'VA']:
             raise ValueError("Invalid gender or activity level.")
-
+        
         # Basic Metabolic Rate (BMR) calculation
         bmr = get_BMR(weight, height,gender , age)
 
@@ -20,14 +21,14 @@ def get_user_nutritious(user_data):
         calories = bmr * activity_factors[activity_level]
 
         # Adjust calories based on the diet goal
-        diet_goal = user_data['diet_goal']
         if diet_goal == 'loss':
             calories -= 500  # Decrease for weight loss
         elif diet_goal == 'gain':
             calories += 500  # Increase for weight gain
         elif diet_goal != 'maintain':
             raise ValueError("Invalid diet goal.")
-        
+
+
         # Nutrient 
         return {
             'calories': round(calories),
