@@ -11,19 +11,21 @@ class Command(BaseCommand):
         csv_file_path = options['csv_file']
         with open(csv_file_path, 'r') as file:
             reader = csv.reader(file)
-            next(reader)  
+            next(reader)  # Skip the header row
             for row in reader:
                 FoodItem.objects.update_or_create(
-                    name=row[0],
+                    name=row[1],
                     defaults={
-                        'cost': float(row[1]),
-                        'calories': int(row[2]),
-                        'protein': float(row[3]),
-                        'carbs': float(row[4]),
-                        'fats': float(row[5]),
-                        'is_vegan': row[6].lower() == 'true',
-                        'is_vegetarian': row[7].lower() == 'true',
-                        'is_gluten_free': row[8].lower() == 'true',
-                        'is_lactose_free': row[9].lower() == 'true'
+                        'mealType': row[0],
+                        'cost': float(row[2].replace('$', '')),  # remove the dollar sign before converting to float
+                        'calories': int(row[3]),
+                        'protein': float(row[4]),
+                        'carbs': float(row[5]),
+                        'fats': float(row[6]),
+                        'is_vegan': row[7].lower() == 'true',
+                        'is_vegetarian': row[8].lower() == 'true',
+                        'is_gluten_free': row[9].lower() == 'true',
+                        'is_lactose_free': row[10].lower() == 'true',
                     }
                 )
+        self.stdout.write(self.style.SUCCESS('Foods saved successfully!'))

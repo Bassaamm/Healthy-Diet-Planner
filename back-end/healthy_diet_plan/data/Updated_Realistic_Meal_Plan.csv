@@ -1,0 +1,171 @@
+mealType,mealName,Cost,Calories,Protein (g),Carbs (g),Fats (g),Vegan,Vegetarian,Gluten-Free,Lactose-Free
+Breakfast,Avocado Toast with Poached Eggs,8.75,344,6,47,10,FALSE,FALSE,FALSE,TRUE
+Breakfast,Greek Yogurt with Mixed Berries,14.51,423,22,87,22,FALSE,FALSE,TRUE,TRUE
+Breakfast,Almond Butter Banana Smoothie,12.32,170,7,88,13,FALSE,TRUE,FALSE,FALSE
+Breakfast,Spinach and Feta Omelette,10.99,470,33,46,22,TRUE,FALSE,TRUE,FALSE
+Breakfast,Chia Seed Pudding,6.56,386,25,88,15,TRUE,TRUE,FALSE,TRUE
+Breakfast,Blueberry Pancakes,6.56,229,6,63,12,FALSE,TRUE,FALSE,FALSE
+Breakfast,Quinoa Porridge,5.58,224,9,47,16,FALSE,FALSE,FALSE,FALSE
+Breakfast,Smoked Salmon Bagel,13.66,312,26,29,19,TRUE,FALSE,FALSE,FALSE
+Breakfast,Mushroom Spinach Quiche,11.01,523,13,76,5,TRUE,FALSE,FALSE,FALSE
+Breakfast,Kale and Egg Breakfast Bowl,12.08,310,33,47,6,FALSE,FALSE,FALSE,FALSE
+Breakfast,Avocado Toast with Poached Eggs,5.21,576,23,71,6,FALSE,TRUE,TRUE,TRUE
+Breakfast,Greek Yogurt with Mixed Berries,14.7,533,6,43,9,FALSE,TRUE,TRUE,TRUE
+Breakfast,Almond Butter Banana Smoothie,13.32,450,27,58,17,FALSE,FALSE,TRUE,FALSE
+Breakfast,Spinach and Feta Omelette,7.12,454,8,65,13,FALSE,FALSE,FALSE,FALSE
+Breakfast,Chia Seed Pudding,6.82,533,21,61,23,TRUE,TRUE,TRUE,TRUE
+Breakfast,Blueberry Pancakes,6.83,474,8,87,17,FALSE,TRUE,FALSE,TRUE
+Breakfast,Quinoa Porridge,8.04,423,30,52,24,FALSE,TRUE,TRUE,TRUE
+Breakfast,Smoked Salmon Bagel,10.25,621,10,17,8,FALSE,FALSE,FALSE,TRUE
+Breakfast,Mushroom Spinach Quiche,9.32,435,6,32,15,FALSE,FALSE,FALSE,FALSE
+Breakfast,Kale and Egg Breakfast Bowl,7.91,308,8,30,12,FALSE,TRUE,TRUE,FALSE
+Breakfast,Avocado Toast with Poached Eggs,11.12,353,12,82,19,TRUE,FALSE,FALSE,FALSE
+Breakfast,Greek Yogurt with Mixed Berries,6.39,600,6,37,13,FALSE,TRUE,FALSE,FALSE
+Breakfast,Almond Butter Banana Smoothie,7.92,627,6,22,19,FALSE,FALSE,FALSE,FALSE
+Breakfast,Spinach and Feta Omelette,8.66,466,12,70,8,TRUE,TRUE,TRUE,FALSE
+Breakfast,Chia Seed Pudding,9.56,394,30,64,8,TRUE,FALSE,FALSE,TRUE
+Breakfast,Blueberry Pancakes,12.85,621,9,41,22,FALSE,FALSE,TRUE,FALSE
+Breakfast,Quinoa Porridge,7,551,18,19,17,TRUE,TRUE,FALSE,FALSE
+Breakfast,Smoked Salmon Bagel,10.14,393,17,41,18,TRUE,TRUE,FALSE,FALSE
+Breakfast,Mushroom Spinach Quiche,10.92,683,23,75,12,FALSE,TRUE,FALSE,FALSE
+Breakfast,Kale and Egg Breakfast Bowl,5.46,293,32,33,20,FALSE,TRUE,FALSE,TRUE
+Breakfast,Avocado Toast with Poached Eggs,11.08,416,5,51,19,TRUE,FALSE,FALSE,TRUE
+Breakfast,Greek Yogurt with Mixed Berries,6.71,281,16,35,12,FALSE,TRUE,FALSE,TRUE
+Breakfast,Almond Butter Banana Smoothie,5.65,345,24,18,24,FALSE,FALSE,TRUE,TRUE
+Breakfast,Spinach and Feta Omelette,14.49,605,7,33,15,TRUE,TRUE,TRUE,FALSE
+Breakfast,Chia Seed Pudding,14.66,614,18,66,18,FALSE,TRUE,FALSE,FALSE
+Breakfast,Blueberry Pancakes,13.08,376,9,64,23,TRUE,TRUE,FALSE,TRUE
+Breakfast,Quinoa Porridge,8.05,595,21,46,6,FALSE,FALSE,FALSE,TRUE
+Breakfast,Smoked Salmon Bagel,5.98,250,21,33,16,TRUE,FALSE,FALSE,TRUE
+Breakfast,Mushroom Spinach Quiche,11.84,284,15,27,23,TRUE,FALSE,TRUE,TRUE
+Breakfast,Kale and Egg Breakfast Bowl,9.4,182,30,86,19,TRUE,TRUE,TRUE,FALSE
+Breakfast,Avocado Toast with Poached Eggs,6.22,231,16,60,10,FALSE,TRUE,TRUE,FALSE
+Breakfast,Greek Yogurt with Mixed Berries,9.95,524,8,80,13,TRUE,FALSE,FALSE,TRUE
+Breakfast,Almond Butter Banana Smoothie,5.34,443,13,31,23,FALSE,FALSE,TRUE,FALSE
+Breakfast,Spinach and Feta Omelette,14.09,433,24,60,7,FALSE,FALSE,TRUE,TRUE
+Breakfast,Chia Seed Pudding,7.59,201,19,52,16,FALSE,TRUE,FALSE,TRUE
+Breakfast,Blueberry Pancakes,11.63,158,5,65,17,FALSE,TRUE,TRUE,TRUE
+Breakfast,Quinoa Porridge,8.12,462,25,39,16,TRUE,FALSE,TRUE,FALSE
+Breakfast,Smoked Salmon Bagel,10.2,568,25,63,13,FALSE,TRUE,TRUE,TRUE
+Breakfast,Mushroom Spinach Quiche,10.47,336,5,19,9,TRUE,FALSE,FALSE,FALSE
+Breakfast,Kale and Egg Breakfast Bowl,6.85,626,7,66,22,FALSE,FALSE,TRUE,FALSE
+Lunch,Chicken Caesar Salad,14.7,261,16,61,17,TRUE,FALSE,FALSE,FALSE
+Lunch,Veggie Burger with Sweet Potato Fries,12.75,397,10,55,22,FALSE,TRUE,FALSE,FALSE
+Lunch,Sushi Roll Set,14.39,157,26,29,15,FALSE,TRUE,TRUE,TRUE
+Lunch,Grilled Steak with Quinoa Salad,13.95,438,29,25,21,FALSE,FALSE,TRUE,FALSE
+Lunch,Tomato Basil Soup,10.98,225,7,42,15,FALSE,FALSE,TRUE,FALSE
+Lunch,Vegan Wrap,14.22,371,34,28,16,FALSE,TRUE,TRUE,TRUE
+Lunch,Turkey and Avocado Sandwich,5.88,190,34,19,7,FALSE,FALSE,TRUE,TRUE
+Lunch,Tofu Stir Fry,6.96,150,12,30,15,FALSE,FALSE,TRUE,TRUE
+Lunch,Pasta Primavera,5.45,362,17,44,17,FALSE,FALSE,FALSE,FALSE
+Lunch,Chicken Tikka Masala with Rice,8.25,259,16,57,22,TRUE,FALSE,FALSE,FALSE
+Lunch,Chicken Caesar Salad,8.89,355,24,40,12,FALSE,TRUE,FALSE,TRUE
+Lunch,Veggie Burger with Sweet Potato Fries,7.71,315,33,37,21,FALSE,FALSE,TRUE,FALSE
+Lunch,Sushi Roll Set,13.29,581,27,58,15,FALSE,FALSE,TRUE,FALSE
+Lunch,Grilled Steak with Quinoa Salad,8.57,253,6,70,7,TRUE,TRUE,TRUE,TRUE
+Lunch,Tomato Basil Soup,7.81,644,21,17,20,TRUE,FALSE,FALSE,FALSE
+Lunch,Vegan Wrap,10.43,282,23,40,16,TRUE,TRUE,FALSE,TRUE
+Lunch,Turkey and Avocado Sandwich,6.41,698,23,15,19,TRUE,FALSE,TRUE,TRUE
+Lunch,Tofu Stir Fry,13.02,486,19,71,24,FALSE,TRUE,FALSE,TRUE
+Lunch,Pasta Primavera,5.75,616,26,85,14,FALSE,FALSE,FALSE,FALSE
+Lunch,Chicken Tikka Masala with Rice,14.87,315,20,77,8,FALSE,TRUE,FALSE,FALSE
+Lunch,Chicken Caesar Salad,12.72,523,20,61,21,TRUE,FALSE,TRUE,FALSE
+Lunch,Veggie Burger with Sweet Potato Fries,6.99,644,10,27,5,FALSE,FALSE,FALSE,FALSE
+Lunch,Sushi Roll Set,5.06,441,6,77,18,FALSE,TRUE,TRUE,TRUE
+Lunch,Grilled Steak with Quinoa Salad,13.15,335,15,52,11,TRUE,TRUE,FALSE,TRUE
+Lunch,Tomato Basil Soup,12.07,415,7,46,9,FALSE,TRUE,FALSE,FALSE
+Lunch,Vegan Wrap,12.29,200,32,43,8,TRUE,FALSE,FALSE,TRUE
+Lunch,Turkey and Avocado Sandwich,12.71,326,13,74,24,FALSE,FALSE,TRUE,TRUE
+Lunch,Tofu Stir Fry,5.74,674,28,55,22,FALSE,TRUE,TRUE,FALSE
+Lunch,Pasta Primavera,8.58,649,24,44,21,TRUE,TRUE,TRUE,FALSE
+Lunch,Chicken Tikka Masala with Rice,6.16,249,20,43,12,TRUE,FALSE,TRUE,TRUE
+Lunch,Chicken Caesar Salad,13.63,508,12,67,16,FALSE,TRUE,TRUE,FALSE
+Lunch,Veggie Burger with Sweet Potato Fries,11.23,186,17,57,7,TRUE,TRUE,TRUE,TRUE
+Lunch,Sushi Roll Set,8.31,436,34,25,13,FALSE,TRUE,FALSE,FALSE
+Lunch,Grilled Steak with Quinoa Salad,5.64,297,8,32,13,FALSE,TRUE,TRUE,TRUE
+Lunch,Tomato Basil Soup,8.11,572,6,15,11,TRUE,TRUE,FALSE,TRUE
+Lunch,Vegan Wrap,8.25,578,21,54,6,FALSE,TRUE,TRUE,FALSE
+Lunch,Turkey and Avocado Sandwich,12.3,185,22,53,9,TRUE,TRUE,TRUE,TRUE
+Lunch,Tofu Stir Fry,11.38,179,21,80,24,FALSE,TRUE,TRUE,TRUE
+Lunch,Pasta Primavera,13.87,210,29,63,16,TRUE,FALSE,TRUE,FALSE
+Lunch,Chicken Tikka Masala with Rice,9.72,487,29,60,10,TRUE,TRUE,TRUE,FALSE
+Lunch,Chicken Caesar Salad,6.2,305,31,64,12,FALSE,TRUE,FALSE,FALSE
+Lunch,Veggie Burger with Sweet Potato Fries,12.13,281,10,37,15,TRUE,FALSE,TRUE,FALSE
+Lunch,Sushi Roll Set,12.61,183,24,80,14,TRUE,FALSE,FALSE,TRUE
+Lunch,Grilled Steak with Quinoa Salad,10.61,585,31,81,24,TRUE,FALSE,TRUE,TRUE
+Lunch,Tomato Basil Soup,12.71,561,34,47,24,FALSE,FALSE,TRUE,TRUE
+Lunch,Vegan Wrap,9.94,378,15,65,23,FALSE,TRUE,FALSE,TRUE
+Lunch,Turkey and Avocado Sandwich,10.23,206,24,85,24,TRUE,TRUE,FALSE,TRUE
+Lunch,Tofu Stir Fry,9.28,427,22,50,10,TRUE,FALSE,TRUE,FALSE
+Lunch,Pasta Primavera,5.25,480,18,38,18,TRUE,FALSE,FALSE,TRUE
+Lunch,Chicken Tikka Masala with Rice,6.08,691,5,42,20,TRUE,FALSE,TRUE,TRUE
+Dinner,Salmon with Asparagus,5.31,391,27,16,24,TRUE,TRUE,FALSE,FALSE
+Dinner,Beef Stroganoff,11.36,264,6,24,17,FALSE,FALSE,FALSE,TRUE
+Dinner,Vegetarian Chili,8.14,422,11,26,16,FALSE,FALSE,FALSE,FALSE
+Dinner,Lentil and Spinach Stew,10.09,598,14,79,5,TRUE,TRUE,FALSE,FALSE
+Dinner,Grilled Chicken with Broccoli,14.08,163,10,82,19,FALSE,TRUE,TRUE,FALSE
+Dinner,Eggplant Parmesan,7.49,408,17,76,12,TRUE,FALSE,FALSE,TRUE
+Dinner,Pork Chop with Applesauce,9.1,297,34,69,5,TRUE,TRUE,FALSE,FALSE
+Dinner,Shrimp Paella,12.56,650,15,51,6,TRUE,FALSE,FALSE,FALSE
+Dinner,Falafel and Tabbouleh,7.29,610,28,34,20,FALSE,FALSE,FALSE,FALSE
+Dinner,Pad Thai Noodles,5.77,619,21,84,18,FALSE,TRUE,FALSE,TRUE
+Dinner,Salmon with Asparagus,7.9,432,32,77,16,FALSE,FALSE,FALSE,TRUE
+Dinner,Beef Stroganoff,6.61,521,22,83,20,TRUE,FALSE,FALSE,FALSE
+Dinner,Vegetarian Chili,14.3,290,9,56,9,TRUE,FALSE,TRUE,FALSE
+Dinner,Lentil and Spinach Stew,13.08,391,33,31,15,TRUE,TRUE,TRUE,TRUE
+Dinner,Grilled Chicken with Broccoli,11.33,407,30,72,12,FALSE,TRUE,TRUE,TRUE
+Dinner,Eggplant Parmesan,13.71,570,19,20,15,FALSE,TRUE,FALSE,TRUE
+Dinner,Pork Chop with Applesauce,13.04,438,18,37,16,FALSE,FALSE,TRUE,TRUE
+Dinner,Shrimp Paella,6.87,660,34,18,5,FALSE,TRUE,FALSE,TRUE
+Dinner,Falafel and Tabbouleh,13.93,434,26,23,22,TRUE,FALSE,FALSE,FALSE
+Dinner,Pad Thai Noodles,10.39,215,22,77,17,FALSE,FALSE,TRUE,FALSE
+Dinner,Salmon with Asparagus,13.07,355,34,56,16,TRUE,FALSE,FALSE,TRUE
+Dinner,Beef Stroganoff,13.96,489,11,89,20,TRUE,FALSE,FALSE,FALSE
+Dinner,Vegetarian Chili,8.18,570,33,26,7,FALSE,TRUE,TRUE,TRUE
+Dinner,Lentil and Spinach Stew,6.1,349,15,49,7,FALSE,FALSE,FALSE,TRUE
+Dinner,Grilled Chicken with Broccoli,7.28,459,10,64,15,FALSE,FALSE,TRUE,FALSE
+Dinner,Eggplant Parmesan,9.27,677,9,86,9,FALSE,FALSE,FALSE,TRUE
+Dinner,Pork Chop with Applesauce,13.18,307,9,54,9,FALSE,FALSE,FALSE,TRUE
+Dinner,Shrimp Paella,13.61,616,25,73,24,TRUE,TRUE,TRUE,FALSE
+Dinner,Falafel and Tabbouleh,5.07,551,28,20,17,TRUE,FALSE,FALSE,TRUE
+Dinner,Pad Thai Noodles,10.11,185,23,88,22,FALSE,FALSE,TRUE,FALSE
+Dinner,Salmon with Asparagus,9.17,425,23,27,21,FALSE,FALSE,FALSE,TRUE
+Dinner,Beef Stroganoff,7.22,685,27,74,20,TRUE,FALSE,TRUE,FALSE
+Dinner,Vegetarian Chili,6.2,505,26,30,11,FALSE,FALSE,TRUE,FALSE
+Dinner,Lentil and Spinach Stew,8.38,281,15,19,11,TRUE,TRUE,FALSE,FALSE
+Dinner,Grilled Chicken with Broccoli,14.43,231,16,37,21,TRUE,TRUE,TRUE,TRUE
+Dinner,Eggplant Parmesan,8.23,188,32,67,14,TRUE,TRUE,FALSE,FALSE
+Dinner,Pork Chop with Applesauce,10.19,192,32,81,18,TRUE,FALSE,FALSE,FALSE
+Dinner,Shrimp Paella,12.03,699,19,86,14,FALSE,TRUE,FALSE,FALSE
+Dinner,Falafel and Tabbouleh,8.64,512,24,87,7,TRUE,FALSE,TRUE,TRUE
+Dinner,Pad Thai Noodles,14.72,585,21,20,14,FALSE,FALSE,TRUE,TRUE
+Dinner,Salmon with Asparagus,14.62,556,29,54,19,FALSE,FALSE,FALSE,FALSE
+Dinner,Beef Stroganoff,7.52,692,34,56,9,FALSE,TRUE,FALSE,FALSE
+Dinner,Vegetarian Chili,9.97,389,29,37,5,FALSE,FALSE,FALSE,TRUE
+Dinner,Lentil and Spinach Stew,8.01,544,6,34,15,FALSE,FALSE,FALSE,TRUE
+Dinner,Grilled Chicken with Broccoli,7.85,297,13,77,18,FALSE,TRUE,FALSE,TRUE
+Dinner,Eggplant Parmesan,5.37,605,12,44,16,TRUE,FALSE,TRUE,TRUE
+Dinner,Pork Chop with Applesauce,11.1,210,10,24,7,TRUE,FALSE,FALSE,FALSE
+Dinner,Shrimp Paella,10.03,174,20,26,10,TRUE,FALSE,FALSE,TRUE
+Dinner,Falafel and Tabbouleh,5.51,310,28,41,12,FALSE,FALSE,TRUE,TRUE
+Dinner,Pad Thai Noodles,7.79,514,14,87,22,TRUE,TRUE,FALSE,TRUE
+Snack,Mixed Nuts,14.08,445,25,16,8,FALSE,TRUE,FALSE,TRUE
+Snack,Hummus with Carrot Sticks,7.4,254,5,61,20,TRUE,FALSE,TRUE,TRUE
+Snack,Fruit Salad,6.45,532,28,70,7,TRUE,FALSE,FALSE,FALSE
+Snack,Cheese and Crackers,9.89,517,19,25,21,FALSE,TRUE,FALSE,TRUE
+Snack,Dark Chocolate Squares,14.86,266,7,89,24,TRUE,TRUE,FALSE,FALSE
+Snack,Mixed Nuts,7.42,166,34,39,23,FALSE,FALSE,TRUE,FALSE
+Snack,Hummus with Carrot Sticks,11.72,368,24,58,23,FALSE,TRUE,TRUE,TRUE
+Snack,Fruit Salad,12.62,358,30,28,15,FALSE,TRUE,FALSE,FALSE
+Snack,Cheese and Crackers,7.38,374,26,70,23,TRUE,FALSE,FALSE,TRUE
+Snack,Dark Chocolate Squares,12.28,322,9,20,8,FALSE,TRUE,TRUE,FALSE
+Snack,Mixed Nuts,8.68,269,5,38,22,FALSE,TRUE,TRUE,TRUE
+Snack,Hummus with Carrot Sticks,11.32,504,32,57,12,TRUE,TRUE,FALSE,TRUE
+Snack,Fruit Salad,11.34,561,31,64,15,TRUE,TRUE,TRUE,TRUE
+Snack,Cheese and Crackers,10.36,451,25,71,19,TRUE,TRUE,TRUE,TRUE
+Snack,Dark Chocolate Squares,5.9,487,10,58,10,FALSE,TRUE,FALSE,TRUE
+Snack,Mixed Nuts,13.35,561,31,39,16,TRUE,FALSE,TRUE,FALSE
+Snack,Hummus with Carrot Sticks,8.21,582,29,36,24,FALSE,FALSE,TRUE,FALSE
+Snack,Fruit Salad,6.87,539,22,33,15,TRUE,FALSE,FALSE,FALSE
+Snack,Cheese and Crackers,5.41,527,9,78,15,TRUE,TRUE,FALSE,FALSE
+Snack,Dark Chocolate Squares,10.91,381,29,44,14,FALSE,TRUE,FALSE,TRUE

@@ -1,14 +1,15 @@
 from django.http import HttpResponse, JsonResponse
 from .models import FoodItem
 from .optimizer import optimize_diet  
-from .healper_fucntions import calculate_nutritional_needs ,   convert_to_meal_plan
 from django.views.decorators.http import require_http_methods
 from django.views.decorators.csrf import csrf_exempt
 import json
-
+from .helpers import calc_user_nutitious ,diet_plan_maker
 
 def index(request):
     return HttpResponse("Welcome to Healthy Diet Planner!")
+
+from django.db.models import Q
 
 @csrf_exempt
 @require_http_methods(["POST"])
@@ -16,18 +17,30 @@ def diet_plan(request):
     if request.method == "POST":
         try:
             user_data = json.loads(request.body.decode('utf-8'))
-            # Get user nutritional requirements
-            requirements = calculate_nutritional_needs(user_data)
 
-            # Getting the food data from database
-            allowed_foods = list(FoodItem.objects.all().values('name', 'cost', 'calories', 'protein', 'carbs', 'fats'))
+            if not user_data:
+                return JsonResponse({'status': 'error', 'details': 'No user data provided'}, status=500)
+            requirements = calc_user_nutitious.get_user_nutritious(user_data)
 
-            # Get optimized food quantities
+            query = FoodItem.objects.all()
+            if user_data.get('is_vegan') == "true":
+                query = query.filter(is_vegan=True)
+            if user_data.get('is_vegetarian') == "true":
+                query = query.filter(is_vegetarian=True)
+            if user_data.get('is_gluten_free') == "true":
+                query = query.filter(is_gluten_free=True)
+            if user_data.get('is_lactose_free') == "true":
+                query = query.filter(is_lactose_free=True)
+
+            allowed_foods = list(query.values('name', 'cost', 'calories', 'protein', 'carbs', 'fats'))
+            print("Filtered Foods:", allowed_foods)  # This will help you see what's actually being queried
+
+            if not allowed_foods:
+                return JsonResponse({'status': 'error', 'details': 'No foods meet the dietary requirements'})
+
             food_quantities = optimize_diet(allowed_foods, requirements)
+            meal_plan = diet_plan_maker.convert_to_meal_plan(food_quantities, allowed_foods)
 
-            # Convert to structured meal plan
-            meal_plan = convert_to_meal_plan(food_quantities, allowed_foods)
-            
             return JsonResponse({'status': 'success', 'meal_plan': meal_plan})
         except Exception as e:
             return JsonResponse({'status': 'error', 'details': str(e)}, status=500)

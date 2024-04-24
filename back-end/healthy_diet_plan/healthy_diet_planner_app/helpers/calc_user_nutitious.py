@@ -1,17 +1,19 @@
-def calculate_nutritional_needs(user_data):
+
+def get_user_nutritious(user_data):
     try:
-        weight = float(user_data['weight'])
+        weight = round(float(user_data['weight']))
         height = float(user_data['height'])
         age = int(user_data['age'])
         gender = user_data['gender']
         activity_level = user_data['activity_level']
+        
 
         # gender and activity level input
         if gender not in ['M', 'F'] or activity_level not in ['S', 'LA', 'A', 'VA']:
             raise ValueError("Invalid gender or activity level.")
 
         # Basic Metabolic Rate (BMR) calculation
-        bmr = 10 * weight + 6.25 * height - 5 * age + (5 if gender == 'M' else -161)
+        bmr = get_BMR(weight, height,gender , age)
 
         # Activity factors for different levels
         activity_factors = {'S': 1.25, 'LA': 1.375, 'A': 1.55, 'VA': 1.725}
@@ -38,40 +40,6 @@ def calculate_nutritional_needs(user_data):
     except ValueError as e:
         raise ValueError(f"Data validation error: {str(e)}")
     
-def convert_to_meal_plan(food_quantities, allowed_foods):
-    # Initial empty meal plan structure
-    meal_plan = {
-        "calories": 0,
-        "cost": 0,
-        "meals": {
-            "breakfast": {"items": {}, "calories": 0},
-            "lunch": {"items": {}, "calories": 0},
-            "dinner": {"items": {}, "calories": 0}
-        }
-    }
 
-    # Distribute meals - not accurate yet
-    meals = ["breakfast", "lunch", "dinner"]
-    meal_index = 0
-
-    for item in allowed_foods:
-        name = item['name']
-        quantity = food_quantities.get(name, 0)
-        if quantity > 0:
-            meal_name = meals[meal_index % 3]
-            meal_plan['meals'][meal_name]['items'][name] = {
-                "carbs": round(item['carbs'] * quantity),
-                "protein": round(item['protein'] * quantity),
-                "fat": round(item['fats'] * quantity),
-            }
-            meal_plan['meals'][meal_name]['calories'] += round(item['calories'] * quantity)
-            meal_plan['calories'] += round(item['calories'] * quantity)
-            meal_plan['cost'] += round(item['cost'] * quantity, 2)
-            meal_index += 1
-
-    # Rounding off the total calories and cost
-    meal_plan['calories'] = round(meal_plan['calories'])
-    meal_plan['cost'] = round(meal_plan['cost'], 2)
-
-    return meal_plan
-
+def get_BMR(weight , height ,gender , age):
+ return 10 * weight + 6.25 * height - 5 * age + (5 if gender == 'M' else -161)
