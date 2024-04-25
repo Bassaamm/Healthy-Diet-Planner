@@ -26,13 +26,13 @@ def diet_plan(request):
             
             requirements = calc_user_nutitious.get_user_nutritious(user_data)
             query = FoodItem.objects.all()
-            if user_data.get('is_vegan') == "true":
+            if user_data.get('is_vegan') == True:
                 query = query.filter(is_vegan=True)
-            if user_data.get('is_vegetarian') == "true":
+            if user_data.get('is_vegetarian') == True:
                 query = query.filter(is_vegetarian=True)
-            if user_data.get('is_gluten_free') == "true":
+            if user_data.get('is_gluten_free') == True:
                 query = query.filter(is_gluten_free=True)
-            if user_data.get('is_lactose_free') == "true":
+            if user_data.get('is_lactose_free') == True:
                 query = query.filter(is_lactose_free=True)
 
             allowed_foods = list(query.values('name', 'cost', 'calories', 'protein', 'carbs', 'fats'))
