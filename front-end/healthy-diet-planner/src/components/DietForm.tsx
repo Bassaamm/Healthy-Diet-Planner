@@ -220,6 +220,7 @@ export default function DietForm() {
                   <FormItem>
                     <FormLabel>Vegan:</FormLabel>
                     <FormControl>
+                      {/*@ts-ignore*/}
                       <input type="checkbox" {...field} />
                     </FormControl>
                   </FormItem>
@@ -232,6 +233,7 @@ export default function DietForm() {
                   <FormItem>
                     <FormLabel>Vegetarian:</FormLabel>
                     <FormControl>
+                      {/*@ts-ignore*/}
                       <input type="checkbox" {...field} />
                     </FormControl>
                   </FormItem>
@@ -244,6 +246,7 @@ export default function DietForm() {
                   <FormItem>
                     <FormLabel>Gluten Free:</FormLabel>
                     <FormControl>
+                      {/*@ts-ignore*/}
                       <input type="checkbox" {...field} />
                     </FormControl>
                   </FormItem>
@@ -256,6 +259,7 @@ export default function DietForm() {
                   <FormItem>
                     <FormLabel>Lactose Free:</FormLabel>
                     <FormControl>
+                      {/*@ts-ignore*/}
                       <input type="checkbox" {...field} />
                     </FormControl>
                   </FormItem>
