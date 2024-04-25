@@ -1,46 +1,113 @@
 "use client";
 import { Input } from "@/src/components/ui/input";
 import { useForm } from "react-hook-form";
-import {
-  Form,
-  FormField,
-  FormItem,
-  FormLabel,
-  FormControl,
-  FormDescription,
-  FormMessage,
-} from "./ui/form";
+import { Form, FormField, FormItem, FormLabel, FormControl } from "./ui/form";
 import { Button } from "./ui/button";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { FormSchema, FormSchemaType } from "../types/FormSchema";
 import { useState } from "react";
-
+import { usePlanner } from "@/app/planner/usePlanner";
+import React from "react";
 export default function DietForm() {
   const [currentPage, setCurrentPage] = useState(1);
+  const { error, loading, response: data, sendData } = usePlanner();
   const pagesNum = 3;
   const form = useForm<FormSchemaType>({
     resolver: zodResolver(FormSchema),
     defaultValues: {
-      weight: "",
-      height: "",
-      age: "",
-      gender: "",
-      activity_level: "",
-      diet_goal: "",
-      is_vegan: "",
-      is_vegetarian: "",
-      is_gluten_free: "",
-      is_lactose_free: "",
+      gender: "M",
+      activity_level: "S",
+      diet_goal: "maintain",
+      is_vegan: false,
+      is_vegetarian: false,
+      is_gluten_free: false,
+      is_lactose_free: false,
     },
   });
   function onSubmit(data: FormSchemaType) {
     console.log(data);
+    if (currentPage === 3) {
+      sendData(data);
+    }
   }
+  if (loading)
+    return <div className="animate-spin border-2 border-black w-4 h-4"></div>;
+  if (error) return <div>Error</div>;
+  if (data)
+    return (
+      <div className="border-2 border-slate-900 px-6 py-10 rounded-lg mx-8">
+        <h1 className="text-5xl font-bold">Your Diet Plan</h1>
+        <div className="py-6">
+          <div>
+            <span className="font-bold text-xl">Total calories</span> :{" "}
+            {data.meal_plan.calories}
+          </div>
+          <div>
+            <span className="font-bold text-xl">Approximate cost</span> :{" "}
+            {data.meal_plan.cost} $
+          </div>
+        </div>
+        <div className="border-2 grid grid-cols-5 py-6 px-4 rounded-lg">
+          <div className="border-2 p-4 h-full flex items-center justify-center text-center">
+            Meal Type
+          </div>
+          <div className="border-2 p-4 h-full flex items-center justify-center text-center">
+            Name
+          </div>
+          <div className="border-2 p-4 h-full flex items-center justify-center text-center">
+            Carbs
+          </div>
+          <div className="border-2 p-4 h-full flex items-center justify-center text-center">
+            Protein
+          </div>
+          <div className="border-2 p-4 h-full flex items-center justify-center text-center">
+            Fats
+          </div>
+
+          {data.meal_plan.meals.map((meal: any) => {
+            const itemNames = meal.items
+              .map((item: any) => item.itemName)
+              .join(", ");
+            const totalCarbs = meal.items.reduce(
+              (total: number, item: any) => total + item.carbs,
+              0
+            );
+            const totalProtein = meal.items.reduce(
+              (total: number, item: any) => total + item.protein,
+              0
+            );
+            const totalFat = meal.items.reduce(
+              (total: number, item: any) => total + item.fat,
+              0
+            );
+
+            return (
+              <React.Fragment key={meal.calories}>
+                <div className="border-2 px-2 py-4 h-full flex items-center justify-center text-center">
+                  {meal.mealType}
+                </div>
+                <div className="border-2 px-2 h-full flex items-center justify-center text-center">
+                  {itemNames}
+                </div>
+                <div className="border-2 px-2 h-full flex items-center justify-center text-center">
+                  {totalCarbs}
+                </div>
+                <div className="border-2 px-2 h-full flex items-center justify-center text-center">
+                  {totalProtein}
+                </div>
+                <div className="border-2 px-2 h-full flex items-center justify-center text-center">
+                  {totalFat}
+                </div>
+              </React.Fragment>
+            );
+          })}
+        </div>
+      </div>
+    );
   return (
     <div className="max-w-xl  p-14 rounded-xl border-2 w-full">
-      {" "}
       <Form {...form}>
-        <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+        <form className="space-y-8">
           {currentPage === 1 && (
             <>
               {" "}
@@ -153,7 +220,7 @@ export default function DietForm() {
                   <FormItem>
                     <FormLabel>Vegan:</FormLabel>
                     <FormControl>
-                      <input type="checkbox" {...field} className="ml-4" />
+                      <input type="checkbox" {...field} />
                     </FormControl>
                   </FormItem>
                 )}
@@ -165,7 +232,7 @@ export default function DietForm() {
                   <FormItem>
                     <FormLabel>Vegetarian:</FormLabel>
                     <FormControl>
-                      <input type="checkbox" {...field} className="ml-4" />
+                      <input type="checkbox" {...field} />
                     </FormControl>
                   </FormItem>
                 )}
@@ -175,9 +242,9 @@ export default function DietForm() {
                 name="is_gluten_free"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Gluten Free: </FormLabel>
+                    <FormLabel>Gluten Free:</FormLabel>
                     <FormControl>
-                      <input type="checkbox" {...field} className="ml-4" />
+                      <input type="checkbox" {...field} />
                     </FormControl>
                   </FormItem>
                 )}
@@ -189,7 +256,7 @@ export default function DietForm() {
                   <FormItem>
                     <FormLabel>Lactose Free:</FormLabel>
                     <FormControl>
-                      <input type="checkbox" {...field} className="ml-4" />
+                      <input type="checkbox" {...field} />
                     </FormControl>
                   </FormItem>
                 )}
@@ -209,23 +276,24 @@ export default function DietForm() {
               />
             ))}
           </div>
-          <div className="flex justify-between flex-row-reverse w-full">
-            {" "}
-            {currentPage !== 3 ? (
-              <Button onClick={() => setCurrentPage(currentPage + 1)}>
-                Next
-              </Button>
-            ) : (
-              <Button type="submit">Submit</Button>
-            )}
-            <Button
-              disabled={currentPage === 1 ? true : false}
-              onClick={() => setCurrentPage(currentPage - 1)}
-            >
-              Previous
-            </Button>
-          </div>
         </form>
+        <div className="navigation-buttons">
+          {currentPage !== 3 ? (
+            <Button onClick={() => setCurrentPage(currentPage + 1)}>
+              Next
+            </Button>
+          ) : (
+            <Button type="submit" onClick={form.handleSubmit(onSubmit)}>
+              Generate
+            </Button>
+          )}
+          <Button
+            disabled={currentPage === 1}
+            onClick={() => setCurrentPage(currentPage - 1)}
+          >
+            Previous
+          </Button>
+        </div>
       </Form>
     </div>
   );
