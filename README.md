@@ -16,7 +16,7 @@ Welcome to the Healthy Diet Planner repository! This project is a web-based appl
 ## Key Components
 
 - **Back-end (Django)**: Contains the core logic for processing user input, calculating meal plans, and serving data to the front-end.
-- **Front-end (Next.js)**: Handles the user interface, allowing users to input dietary preferences, view meal plans, and interact with the application.
+- **Front-end (Next.js)**: Handles the user interface, allowing users to input dietary preferences, recieve meal plans.
 
 ## Getting Started
 
