@@ -1,6 +1,6 @@
 # Healthy Diet Planner
 
-Welcome to the Healthy Diet Planner repository! This project is a web-based application developed to create personalized meal plans utilizing a linear programming model. The primary goal of this tool is to aid users in achieving their dietary objectives based on individual health metrics and dietary restrictions.
+Welcome to the Healthy Diet Planner repository! This project is a web-based application developed to create personalized meal plans utilizing a linear programming model.
 
 ## Features
 
